@@ -1,0 +1,5025 @@
+{
+  "dataset_type": "SYNTHETIC",
+  "milestone": "M6_PREDICTIONS",
+  "video_id": "eval_180kmh",
+  "dataset_group": "controlled_evaluation",
+  "split": "test",
+  "train_speed_kmh": 180,
+  "fps": 30.0,
+  "frame_count": 151,
+  "annotated_video_path": "D:\\ITMS-VirtualTrack\\results\\videos\\m6_predictions\\pred_railway_180kmh.mp4",
+  "crack_pixel_eval_frames": [
+    {
+      "frame_number": 85,
+      "camera_position_m": 140.0,
+      "camera_distance_m": 10.0,
+      "gt_visible": true,
+      "pred_detected": true,
+      "tp_pixels": 12,
+      "fp_pixels": 16,
+      "fn_pixels": 4
+    },
+    {
+      "frame_number": 86,
+      "camera_position_m": 141.666672,
+      "camera_distance_m": 8.3333,
+      "gt_visible": true,
+      "pred_detected": true,
+      "tp_pixels": 27,
+      "fp_pixels": 23,
+      "fn_pixels": 3
+    },
+    {
+      "frame_number": 87,
+      "camera_position_m": 143.333328,
+      "camera_distance_m": 6.6667,
+      "gt_visible": true,
+      "pred_detected": true,
+      "tp_pixels": 55,
+      "fp_pixels": 31,
+      "fn_pixels": 4
+    },
+    {
+      "frame_number": 88,
+      "camera_position_m": 145.0,
+      "camera_distance_m": 5.0,
+      "gt_visible": true,
+      "pred_detected": true,
+      "tp_pixels": 119,
+      "fp_pixels": 33,
+      "fn_pixels": 7
+    }
+  ],
+  "geometry_track_evaluation": {
+    "gt_affected_region_m": [
+      196.0,
+      204.0
+    ],
+    "estimated_affected_region_m": [
+      197.0,
+      202.75
+    ],
+    "gt_max_deviation_m": 0.085,
+    "estimated_max_deviation_m": 0.08441,
+    "max_deviation_difference_m": 0.00059,
+    "displacement_mae_m": 0.00491,
+    "displacement_rmse_m": 0.00801,
+    "max_pointwise_error_m": 0.0308,
+    "profile_coverage_points": 33,
+    "gt_total_profile_points": 33,
+    "compared_profile": [
+      {
+        "y_m": 196.0,
+        "gt_shift_m": 0.0,
+        "estimated_shift_m": 0.000202
+      },
+      {
+        "y_m": 196.25,
+        "gt_shift_m": 0.000817,
+        "estimated_shift_m": 0.003368
+      },
+      {
+        "y_m": 196.5,
+        "gt_shift_m": 0.003235,
+        "estimated_shift_m": 0.003594
+      },
+      {
+        "y_m": 196.75,
+        "gt_shift_m": 0.007163,
+        "estimated_shift_m": 0.00837
+      },
+      {
+        "y_m": 197.0,
+        "gt_shift_m": 0.012448,
+        "estimated_shift_m": 0.019016
+      },
+      {
+        "y_m": 197.25,
+        "gt_shift_m": 0.018888,
+        "estimated_shift_m": 0.026049
+      },
+      {
+        "y_m": 197.5,
+        "gt_shift_m": 0.026236,
+        "estimated_shift_m": 0.036746
+      },
+      {
+        "y_m": 197.75,
+        "gt_shift_m": 0.034209,
+        "estimated_shift_m": 0.03875
+      },
+      {
+        "y_m": 198.0,
+        "gt_shift_m": 0.0425,
+        "estimated_shift_m": 0.04734
+      },
+      {
+        "y_m": 198.25,
+        "gt_shift_m": 0.050791,
+        "estimated_shift_m": 0.056249
+      },
+      {
+        "y_m": 198.5,
+        "gt_shift_m": 0.058764,
+        "estimated_shift_m": 0.062548
+      },
+      {
+        "y_m": 198.75,
+        "gt_shift_m": 0.066112,
+        "estimated_shift_m": 0.06991
+      },
+      {
+        "y_m": 199.0,
+        "gt_shift_m": 0.072552,
+        "estimated_shift_m": 0.072504
+      },
+      {
+        "y_m": 199.25,
+        "gt_shift_m": 0.077837,
+        "estimated_shift_m": 0.077811
+      },
+      {
+        "y_m": 199.5,
+        "gt_shift_m": 0.081765,
+        "estimated_shift_m": 0.082307
+      },
+      {
+        "y_m": 199.75,
+        "gt_shift_m": 0.084183,
+        "estimated_shift_m": 0.083954
+      },
+      {
+        "y_m": 200.0,
+        "gt_shift_m": 0.085,
+        "estimated_shift_m": 0.084406
+      },
+      {
+        "y_m": 200.25,
+        "gt_shift_m": 0.084183,
+        "estimated_shift_m": 0.082309
+      },
+      {
+        "y_m": 200.5,
+        "gt_shift_m": 0.081765,
+        "estimated_shift_m": 0.080414
+      },
+      {
+        "y_m": 200.75,
+        "gt_shift_m": 0.077837,
+        "estimated_shift_m": 0.075692
+      },
+      {
+        "y_m": 201.0,
+        "gt_shift_m": 0.072552,
+        "estimated_shift_m": 0.062929
+      },
+      {
+        "y_m": 201.25,
+        "gt_shift_m": 0.066112,
+        "estimated_shift_m": 0.052311
+      },
+      {
+        "y_m": 201.5,
+        "gt_shift_m": 0.058764,
+        "estimated_shift_m": 0.053255
+      },
+      {
+        "y_m": 201.75,
+        "gt_shift_m": 0.050791,
+        "estimated_shift_m": 0.033789
+      },
+      {
+        "y_m": 202.0,
+        "gt_shift_m": 0.0425,
+        "estimated_shift_m": 0.035403
+      },
+      {
+        "y_m": 202.25,
+        "gt_shift_m": 0.034209,
+        "estimated_shift_m": 0.003412
+      },
+      {
+        "y_m": 202.5,
+        "gt_shift_m": 0.026236,
+        "estimated_shift_m": 0.012783
+      },
+      {
+        "y_m": 202.75,
+        "gt_shift_m": 0.018888,
+        "estimated_shift_m": 0.020564
+      },
+      {
+        "y_m": 203.0,
+        "gt_shift_m": 0.012448,
+        "estimated_shift_m": 0.012513
+      },
+      {
+        "y_m": 203.25,
+        "gt_shift_m": 0.007163,
+        "estimated_shift_m": 0.008842
+      },
+      {
+        "y_m": 203.5,
+        "gt_shift_m": 0.003235,
+        "estimated_shift_m": 0.004739
+      },
+      {
+        "y_m": 203.75,
+        "gt_shift_m": 0.000817,
+        "estimated_shift_m": 0.001954
+      },
+      {
+        "y_m": 204.0,
+        "gt_shift_m": 0.0,
+        "estimated_shift_m": 0.001054
+      }
+    ]
+  },
+  "frames": [
+    {
+      "frame_number": 1,
+      "timestamp_s": 0.0,
+      "camera_position_m": 0.0,
+      "image_path": "images/test/eval_180kmh_f0001.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.5563,
+          "bbox": [
+            475.87,
+            177.4,
+            493.45,
+            185.56
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4301,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00928,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.194,
+        "crack_unet_ms": 21.357,
+        "geometry_ms": 39.73,
+        "total_ms": 78.279
+      }
+    },
+    {
+      "frame_number": 2,
+      "timestamp_s": 0.033333,
+      "camera_position_m": 1.666667,
+      "image_path": "images/test/eval_180kmh_f0002.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.6612,
+          "bbox": [
+            475.65,
+            178.42,
+            493.1,
+            187.12
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4603,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01202,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.632,
+        "crack_unet_ms": 21.351,
+        "geometry_ms": 34.546,
+        "total_ms": 73.441
+      }
+    },
+    {
+      "frame_number": 3,
+      "timestamp_s": 0.066667,
+      "camera_position_m": 3.333333,
+      "image_path": "images/test/eval_180kmh_f0003.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.6955,
+          "bbox": [
+            475.43,
+            179.51,
+            493.31,
+            188.44
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4115,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0092,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.023,
+        "crack_unet_ms": 21.711,
+        "geometry_ms": 65.832,
+        "total_ms": 105.775
+      }
+    },
+    {
+      "frame_number": 4,
+      "timestamp_s": 0.1,
+      "camera_position_m": 5.0,
+      "image_path": "images/test/eval_180kmh_f0004.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.5722,
+          "bbox": [
+            475.7,
+            179.97,
+            493.45,
+            190.21
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5753,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00789,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.535,
+        "crack_unet_ms": 21.033,
+        "geometry_ms": 33.364,
+        "total_ms": 71.758
+      }
+    },
+    {
+      "frame_number": 5,
+      "timestamp_s": 0.133333,
+      "camera_position_m": 6.666667,
+      "image_path": "images/test/eval_180kmh_f0005.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.6106,
+          "bbox": [
+            475.39,
+            182.38,
+            494.53,
+            192.11
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4322,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00963,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.811,
+        "crack_unet_ms": 21.156,
+        "geometry_ms": 38.845,
+        "total_ms": 76.847
+      }
+    },
+    {
+      "frame_number": 6,
+      "timestamp_s": 0.166667,
+      "camera_position_m": 8.333333,
+      "image_path": "images/test/eval_180kmh_f0006.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8156,
+          "bbox": [
+            475.41,
+            183.67,
+            494.9,
+            193.87
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4572,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01074,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.995,
+        "crack_unet_ms": 21.33,
+        "geometry_ms": 35.787,
+        "total_ms": 74.161
+      }
+    },
+    {
+      "frame_number": 7,
+      "timestamp_s": 0.2,
+      "camera_position_m": 10.0,
+      "image_path": "images/test/eval_180kmh_f0007.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8198,
+          "bbox": [
+            474.78,
+            184.66,
+            496.09,
+            195.65
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4738,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00933,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.54,
+        "crack_unet_ms": 21.21,
+        "geometry_ms": 45.701,
+        "total_ms": 84.581
+      }
+    },
+    {
+      "frame_number": 8,
+      "timestamp_s": 0.233333,
+      "camera_position_m": 11.666667,
+      "image_path": "images/test/eval_180kmh_f0008.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8379,
+          "bbox": [
+            474.97,
+            186.76,
+            496.51,
+            197.6
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5911,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01185,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.017,
+        "crack_unet_ms": 21.342,
+        "geometry_ms": 45.271,
+        "total_ms": 83.813
+      }
+    },
+    {
+      "frame_number": 9,
+      "timestamp_s": 0.266667,
+      "camera_position_m": 13.333333,
+      "image_path": "images/test/eval_180kmh_f0009.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8961,
+          "bbox": [
+            474.32,
+            188.73,
+            497.23,
+            199.77
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6086,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01107,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.414,
+        "crack_unet_ms": 21.28,
+        "geometry_ms": 37.67,
+        "total_ms": 76.508
+      }
+    },
+    {
+      "frame_number": 10,
+      "timestamp_s": 0.3,
+      "camera_position_m": 15.0,
+      "image_path": "images/test/eval_180kmh_f0010.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.9008,
+          "bbox": [
+            473.98,
+            190.51,
+            497.91,
+            202.04
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.46,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0111,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.216,
+        "crack_unet_ms": 21.375,
+        "geometry_ms": 45.257,
+        "total_ms": 83.76
+      }
+    },
+    {
+      "frame_number": 11,
+      "timestamp_s": 0.333333,
+      "camera_position_m": 16.666666,
+      "image_path": "images/test/eval_180kmh_f0011.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8647,
+          "bbox": [
+            474.51,
+            192.64,
+            498.22,
+            205.29
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6472,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01188,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.284,
+        "crack_unet_ms": 21.466,
+        "geometry_ms": 47.821,
+        "total_ms": 86.684
+      }
+    },
+    {
+      "frame_number": 12,
+      "timestamp_s": 0.366667,
+      "camera_position_m": 18.333334,
+      "image_path": "images/test/eval_180kmh_f0012.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8997,
+          "bbox": [
+            474.2,
+            194.65,
+            499.24,
+            207.59
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4773,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00889,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.096,
+        "crack_unet_ms": 21.041,
+        "geometry_ms": 39.321,
+        "total_ms": 77.378
+      }
+    },
+    {
+      "frame_number": 13,
+      "timestamp_s": 0.4,
+      "camera_position_m": 20.0,
+      "image_path": "images/test/eval_180kmh_f0013.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.9017,
+          "bbox": [
+            473.61,
+            196.87,
+            500.67,
+            211.09
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.504,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01103,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.595,
+        "crack_unet_ms": 21.366,
+        "geometry_ms": 45.896,
+        "total_ms": 85.126
+      }
+    },
+    {
+      "frame_number": 14,
+      "timestamp_s": 0.433333,
+      "camera_position_m": 21.666666,
+      "image_path": "images/test/eval_180kmh_f0014.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8961,
+          "bbox": [
+            473.03,
+            200.81,
+            500.61,
+            214.44
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5834,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00916,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.261,
+        "crack_unet_ms": 20.982,
+        "geometry_ms": 45.353,
+        "total_ms": 83.601
+      }
+    },
+    {
+      "frame_number": 15,
+      "timestamp_s": 0.466667,
+      "camera_position_m": 23.333334,
+      "image_path": "images/test/eval_180kmh_f0015.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8701,
+          "bbox": [
+            472.7,
+            203.59,
+            502.6,
+            219.21
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.541,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01012,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 212
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.613,
+        "crack_unet_ms": 20.868,
+        "geometry_ms": 41.865,
+        "total_ms": 80.286
+      }
+    },
+    {
+      "frame_number": 16,
+      "timestamp_s": 0.5,
+      "camera_position_m": 25.0,
+      "image_path": "images/test/eval_180kmh_f0016.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.9042,
+          "bbox": [
+            471.85,
+            207.49,
+            502.9,
+            223.82
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4888,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00889,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.129,
+        "crack_unet_ms": 21.894,
+        "geometry_ms": 43.389,
+        "total_ms": 82.454
+      }
+    },
+    {
+      "frame_number": 17,
+      "timestamp_s": 0.533333,
+      "camera_position_m": 26.666666,
+      "image_path": "images/test/eval_180kmh_f0017.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8903,
+          "bbox": [
+            472.46,
+            212.54,
+            505.0,
+            229.78
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4905,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01014,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.038,
+        "crack_unet_ms": 22.432,
+        "geometry_ms": 42.915,
+        "total_ms": 83.236
+      }
+    },
+    {
+      "frame_number": 18,
+      "timestamp_s": 0.566667,
+      "camera_position_m": 28.333334,
+      "image_path": "images/test/eval_180kmh_f0018.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8949,
+          "bbox": [
+            470.94,
+            216.29,
+            509.77,
+            235.77
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4602,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01027,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.238,
+        "crack_unet_ms": 22.811,
+        "geometry_ms": 68.353,
+        "total_ms": 109.445
+      }
+    },
+    {
+      "frame_number": 19,
+      "timestamp_s": 0.6,
+      "camera_position_m": 30.0,
+      "image_path": "images/test/eval_180kmh_f0019.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.88,
+          "bbox": [
+            469.42,
+            223.4,
+            511.47,
+            243.18
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5868,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01106,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.391,
+        "crack_unet_ms": 22.778,
+        "geometry_ms": 42.714,
+        "total_ms": 83.955
+      }
+    },
+    {
+      "frame_number": 20,
+      "timestamp_s": 0.633333,
+      "camera_position_m": 31.666666,
+      "image_path": "images/test/eval_180kmh_f0020.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8945,
+          "bbox": [
+            469.07,
+            229.18,
+            513.98,
+            252.16
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4513,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.013,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.615,
+        "crack_unet_ms": 23.793,
+        "geometry_ms": 67.775,
+        "total_ms": 110.186
+      }
+    },
+    {
+      "frame_number": 21,
+      "timestamp_s": 0.666667,
+      "camera_position_m": 33.333332,
+      "image_path": "images/test/eval_180kmh_f0021.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8834,
+          "bbox": [
+            468.66,
+            238.18,
+            516.79,
+            262.27
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4841,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01112,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.653,
+        "crack_unet_ms": 24.204,
+        "geometry_ms": 63.585,
+        "total_ms": 107.573
+      }
+    },
+    {
+      "frame_number": 22,
+      "timestamp_s": 0.7,
+      "camera_position_m": 35.0,
+      "image_path": "images/test/eval_180kmh_f0022.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.9046,
+          "bbox": [
+            466.78,
+            247.76,
+            520.44,
+            275.29
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5258,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00855,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.559,
+        "crack_unet_ms": 23.83,
+        "geometry_ms": 34.919,
+        "total_ms": 78.258
+      }
+    },
+    {
+      "frame_number": 23,
+      "timestamp_s": 0.733333,
+      "camera_position_m": 36.666668,
+      "image_path": "images/test/eval_180kmh_f0023.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.9234,
+          "bbox": [
+            464.81,
+            260.09,
+            524.42,
+            291.32
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5461,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00894,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.555,
+        "crack_unet_ms": 23.754,
+        "geometry_ms": 41.235,
+        "total_ms": 83.657
+      }
+    },
+    {
+      "frame_number": 24,
+      "timestamp_s": 0.766667,
+      "camera_position_m": 38.333332,
+      "image_path": "images/test/eval_180kmh_f0024.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.9112,
+          "bbox": [
+            463.51,
+            273.9,
+            532.78,
+            311.12
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5253,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01109,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.862,
+        "crack_unet_ms": 24.021,
+        "geometry_ms": 38.299,
+        "total_ms": 81.179
+      }
+    },
+    {
+      "frame_number": 25,
+      "timestamp_s": 0.8,
+      "camera_position_m": 40.0,
+      "image_path": "images/test/eval_180kmh_f0025.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.9083,
+          "bbox": [
+            461.25,
+            294.42,
+            542.87,
+            338.73
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5484,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01071,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.848,
+        "crack_unet_ms": 24.269,
+        "geometry_ms": 39.606,
+        "total_ms": 82.613
+      }
+    },
+    {
+      "frame_number": 26,
+      "timestamp_s": 0.833333,
+      "camera_position_m": 41.666668,
+      "image_path": "images/test/eval_180kmh_f0026.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8987,
+          "bbox": [
+            457.88,
+            321.5,
+            557.2,
+            377.18
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4346,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00927,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 19.23,
+        "crack_unet_ms": 24.267,
+        "geometry_ms": 48.258,
+        "total_ms": 92.915
+      }
+    },
+    {
+      "frame_number": 27,
+      "timestamp_s": 0.866667,
+      "camera_position_m": 43.333332,
+      "image_path": "images/test/eval_180kmh_f0027.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.8879,
+          "bbox": [
+            448.82,
+            363.96,
+            570.04,
+            432.67
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4366,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00972,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.241,
+        "crack_unet_ms": 24.152,
+        "geometry_ms": 40.647,
+        "total_ms": 84.167
+      }
+    },
+    {
+      "frame_number": 28,
+      "timestamp_s": 0.9,
+      "camera_position_m": 45.0,
+      "image_path": "images/test/eval_180kmh_f0028.png",
+      "yolo_detections": [
+        {
+          "class_id": 0,
+          "class_name": "animal_carcass",
+          "confidence": 0.902,
+          "bbox": [
+            443.88,
+            432.33,
+            589.45,
+            527.36
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4052,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00845,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 19.354,
+        "crack_unet_ms": 24.307,
+        "geometry_ms": 67.75,
+        "total_ms": 112.577
+      }
+    },
+    {
+      "frame_number": 29,
+      "timestamp_s": 0.933333,
+      "camera_position_m": 46.666668,
+      "image_path": "images/test/eval_180kmh_f0029.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5455,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00961,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.693,
+        "crack_unet_ms": 23.917,
+        "geometry_ms": 39.547,
+        "total_ms": 81.901
+      }
+    },
+    {
+      "frame_number": 30,
+      "timestamp_s": 0.966667,
+      "camera_position_m": 48.333332,
+      "image_path": "images/test/eval_180kmh_f0030.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5021,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.02972,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.474,
+        "crack_unet_ms": 24.175,
+        "geometry_ms": 30.582,
+        "total_ms": 73.013
+      }
+    },
+    {
+      "frame_number": 31,
+      "timestamp_s": 1.0,
+      "camera_position_m": 50.0,
+      "image_path": "images/test/eval_180kmh_f0031.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5151,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00888,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.943,
+        "crack_unet_ms": 24.26,
+        "geometry_ms": 38.633,
+        "total_ms": 80.626
+      }
+    },
+    {
+      "frame_number": 32,
+      "timestamp_s": 1.033333,
+      "camera_position_m": 51.666668,
+      "image_path": "images/test/eval_180kmh_f0032.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6057,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01072,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.564,
+        "crack_unet_ms": 23.02,
+        "geometry_ms": 31.518,
+        "total_ms": 71.896
+      }
+    },
+    {
+      "frame_number": 33,
+      "timestamp_s": 1.066667,
+      "camera_position_m": 53.333332,
+      "image_path": "images/test/eval_180kmh_f0033.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4621,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01246,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.466,
+        "crack_unet_ms": 22.933,
+        "geometry_ms": 38.852,
+        "total_ms": 79.329
+      }
+    },
+    {
+      "frame_number": 34,
+      "timestamp_s": 1.1,
+      "camera_position_m": 55.0,
+      "image_path": "images/test/eval_180kmh_f0034.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5579,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01096,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.227,
+        "crack_unet_ms": 22.726,
+        "geometry_ms": 43.029,
+        "total_ms": 82.907
+      }
+    },
+    {
+      "frame_number": 35,
+      "timestamp_s": 1.133333,
+      "camera_position_m": 56.666668,
+      "image_path": "images/test/eval_180kmh_f0035.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4717,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00944,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.234,
+        "crack_unet_ms": 22.682,
+        "geometry_ms": 44.777,
+        "total_ms": 84.514
+      }
+    },
+    {
+      "frame_number": 36,
+      "timestamp_s": 1.166667,
+      "camera_position_m": 58.333332,
+      "image_path": "images/test/eval_180kmh_f0036.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4933,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01068,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.321,
+        "crack_unet_ms": 22.63,
+        "geometry_ms": 46.157,
+        "total_ms": 85.962
+      }
+    },
+    {
+      "frame_number": 37,
+      "timestamp_s": 1.2,
+      "camera_position_m": 60.0,
+      "image_path": "images/test/eval_180kmh_f0037.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4659,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01034,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.836,
+        "crack_unet_ms": 22.906,
+        "geometry_ms": 43.639,
+        "total_ms": 84.203
+      }
+    },
+    {
+      "frame_number": 38,
+      "timestamp_s": 1.233333,
+      "camera_position_m": 61.666668,
+      "image_path": "images/test/eval_180kmh_f0038.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4448,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01034,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.363,
+        "crack_unet_ms": 22.91,
+        "geometry_ms": 53.609,
+        "total_ms": 93.779
+      }
+    },
+    {
+      "frame_number": 39,
+      "timestamp_s": 1.266667,
+      "camera_position_m": 63.333332,
+      "image_path": "images/test/eval_180kmh_f0039.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5344,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00842,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.465,
+        "crack_unet_ms": 22.646,
+        "geometry_ms": 40.08,
+        "total_ms": 80.06
+      }
+    },
+    {
+      "frame_number": 40,
+      "timestamp_s": 1.3,
+      "camera_position_m": 65.0,
+      "image_path": "images/test/eval_180kmh_f0040.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4971,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01117,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.308,
+        "crack_unet_ms": 22.835,
+        "geometry_ms": 48.111,
+        "total_ms": 88.095
+      }
+    },
+    {
+      "frame_number": 41,
+      "timestamp_s": 1.333333,
+      "camera_position_m": 66.666664,
+      "image_path": "images/test/eval_180kmh_f0041.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.3867,
+          "bbox": [
+            457.1,
+            200.82,
+            502.9,
+            208.9
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4691,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00972,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.317,
+        "crack_unet_ms": 22.752,
+        "geometry_ms": 40.731,
+        "total_ms": 81.838
+      }
+    },
+    {
+      "frame_number": 42,
+      "timestamp_s": 1.366667,
+      "camera_position_m": 68.333336,
+      "image_path": "images/test/eval_180kmh_f0042.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.5486,
+          "bbox": [
+            452.86,
+            203.4,
+            503.85,
+            212.06
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4597,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00991,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.961,
+        "crack_unet_ms": 22.587,
+        "geometry_ms": 39.51,
+        "total_ms": 80.004
+      }
+    },
+    {
+      "frame_number": 43,
+      "timestamp_s": 1.4,
+      "camera_position_m": 70.0,
+      "image_path": "images/test/eval_180kmh_f0043.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8128,
+          "bbox": [
+            450.41,
+            206.7,
+            503.25,
+            216.24
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4641,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01003,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.388,
+        "crack_unet_ms": 22.882,
+        "geometry_ms": 34.987,
+        "total_ms": 76.21
+      }
+    },
+    {
+      "frame_number": 44,
+      "timestamp_s": 1.433333,
+      "camera_position_m": 71.666664,
+      "image_path": "images/test/eval_180kmh_f0044.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8001,
+          "bbox": [
+            449.88,
+            210.38,
+            505.68,
+            220.46
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5313,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00958,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.553,
+        "crack_unet_ms": 22.909,
+        "geometry_ms": 33.886,
+        "total_ms": 76.351
+      }
+    },
+    {
+      "frame_number": 45,
+      "timestamp_s": 1.466667,
+      "camera_position_m": 73.333336,
+      "image_path": "images/test/eval_180kmh_f0045.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8429,
+          "bbox": [
+            448.8,
+            214.31,
+            505.95,
+            224.76
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5382,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00969,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.307,
+        "crack_unet_ms": 22.99,
+        "geometry_ms": 36.484,
+        "total_ms": 77.899
+      }
+    },
+    {
+      "frame_number": 46,
+      "timestamp_s": 1.5,
+      "camera_position_m": 75.0,
+      "image_path": "images/test/eval_180kmh_f0046.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8492,
+          "bbox": [
+            447.6,
+            218.93,
+            507.28,
+            230.72
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5629,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00997,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.976,
+        "crack_unet_ms": 22.775,
+        "geometry_ms": 35.904,
+        "total_ms": 77.631
+      }
+    },
+    {
+      "frame_number": 47,
+      "timestamp_s": 1.533333,
+      "camera_position_m": 76.666664,
+      "image_path": "images/test/eval_180kmh_f0047.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8405,
+          "bbox": [
+            445.2,
+            223.8,
+            508.98,
+            236.48
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5661,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00921,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.92,
+        "crack_unet_ms": 22.975,
+        "geometry_ms": 39.354,
+        "total_ms": 81.291
+      }
+    },
+    {
+      "frame_number": 48,
+      "timestamp_s": 1.566667,
+      "camera_position_m": 78.333336,
+      "image_path": "images/test/eval_180kmh_f0048.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.849,
+          "bbox": [
+            443.94,
+            230.22,
+            509.45,
+            242.97
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.509,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01091,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.698,
+        "crack_unet_ms": 22.536,
+        "geometry_ms": 44.942,
+        "total_ms": 86.084
+      }
+    },
+    {
+      "frame_number": 49,
+      "timestamp_s": 1.6,
+      "camera_position_m": 80.0,
+      "image_path": "images/test/eval_180kmh_f0049.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8358,
+          "bbox": [
+            436.9,
+            236.28,
+            515.55,
+            252.07
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4774,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01101,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.27,
+        "crack_unet_ms": 22.67,
+        "geometry_ms": 42.869,
+        "total_ms": 83.893
+      }
+    },
+    {
+      "frame_number": 50,
+      "timestamp_s": 1.633333,
+      "camera_position_m": 81.666664,
+      "image_path": "images/test/eval_180kmh_f0050.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8788,
+          "bbox": [
+            436.88,
+            243.67,
+            515.57,
+            262.19
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4161,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01091,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 218
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.017,
+        "crack_unet_ms": 23.927,
+        "geometry_ms": 46.103,
+        "total_ms": 89.039
+      }
+    },
+    {
+      "frame_number": 51,
+      "timestamp_s": 1.666667,
+      "camera_position_m": 83.333336,
+      "image_path": "images/test/eval_180kmh_f0051.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8729,
+          "bbox": [
+            434.22,
+            252.69,
+            517.11,
+            274.23
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6964,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00969,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 21.752,
+        "crack_unet_ms": 25.747,
+        "geometry_ms": 51.233,
+        "total_ms": 99.947
+      }
+    },
+    {
+      "frame_number": 52,
+      "timestamp_s": 1.7,
+      "camera_position_m": 85.0,
+      "image_path": "images/test/eval_180kmh_f0052.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.863,
+          "bbox": [
+            426.74,
+            263.39,
+            520.2,
+            287.95
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5475,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00941,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 20.752,
+        "crack_unet_ms": 24.241,
+        "geometry_ms": 42.2,
+        "total_ms": 88.367
+      }
+    },
+    {
+      "frame_number": 53,
+      "timestamp_s": 1.733333,
+      "camera_position_m": 86.666664,
+      "image_path": "images/test/eval_180kmh_f0053.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8867,
+          "bbox": [
+            420.48,
+            276.49,
+            527.96,
+            307.83
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5159,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01039,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.608,
+        "crack_unet_ms": 24.128,
+        "geometry_ms": 43.401,
+        "total_ms": 87.206
+      }
+    },
+    {
+      "frame_number": 54,
+      "timestamp_s": 1.766667,
+      "camera_position_m": 88.333336,
+      "image_path": "images/test/eval_180kmh_f0054.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.9039,
+          "bbox": [
+            404.78,
+            293.55,
+            534.23,
+            332.94
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5159,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00851,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.243,
+        "crack_unet_ms": 24.095,
+        "geometry_ms": 42.078,
+        "total_ms": 85.436
+      }
+    },
+    {
+      "frame_number": 55,
+      "timestamp_s": 1.8,
+      "camera_position_m": 90.0,
+      "image_path": "images/test/eval_180kmh_f0055.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.9316,
+          "bbox": [
+            398.42,
+            314.15,
+            542.64,
+            364.73
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5522,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00949,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.681,
+        "crack_unet_ms": 24.033,
+        "geometry_ms": 37.981,
+        "total_ms": 81.669
+      }
+    },
+    {
+      "frame_number": 56,
+      "timestamp_s": 1.833333,
+      "camera_position_m": 91.666664,
+      "image_path": "images/test/eval_180kmh_f0056.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.9567,
+          "bbox": [
+            379.87,
+            342.91,
+            559.38,
+            413.32
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6381,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01031,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 211
+      },
+      "latencies_ms": {
+        "yolo_ms": 19.796,
+        "crack_unet_ms": 24.494,
+        "geometry_ms": 60.381,
+        "total_ms": 105.905
+      }
+    },
+    {
+      "frame_number": 57,
+      "timestamp_s": 1.866667,
+      "camera_position_m": 93.333336,
+      "image_path": "images/test/eval_180kmh_f0057.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.9127,
+          "bbox": [
+            357.67,
+            385.97,
+            583.39,
+            491.07
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.7253,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00871,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 21.797,
+        "crack_unet_ms": 24.949,
+        "geometry_ms": 53.907,
+        "total_ms": 101.913
+      }
+    },
+    {
+      "frame_number": 58,
+      "timestamp_s": 1.9,
+      "camera_position_m": 95.0,
+      "image_path": "images/test/eval_180kmh_f0058.png",
+      "yolo_detections": [
+        {
+          "class_id": 1,
+          "class_name": "grain_spillage",
+          "confidence": 0.8418,
+          "bbox": [
+            322.34,
+            450.55,
+            622.54,
+            540.0
+          ]
+        }
+      ],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.7629,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00836,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.401,
+        "crack_unet_ms": 24.116,
+        "geometry_ms": 41.81,
+        "total_ms": 85.363
+      }
+    },
+    {
+      "frame_number": 59,
+      "timestamp_s": 1.933333,
+      "camera_position_m": 96.666664,
+      "image_path": "images/test/eval_180kmh_f0059.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4798,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00889,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.367,
+        "crack_unet_ms": 23.842,
+        "geometry_ms": 30.874,
+        "total_ms": 73.021
+      }
+    },
+    {
+      "frame_number": 60,
+      "timestamp_s": 1.966667,
+      "camera_position_m": 98.333336,
+      "image_path": "images/test/eval_180kmh_f0060.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5665,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01014,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.675,
+        "crack_unet_ms": 23.935,
+        "geometry_ms": 44.959,
+        "total_ms": 87.513
+      }
+    },
+    {
+      "frame_number": 61,
+      "timestamp_s": 2.0,
+      "camera_position_m": 100.0,
+      "image_path": "images/test/eval_180kmh_f0061.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4379,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01103,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 212
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.105,
+        "crack_unet_ms": 24.279,
+        "geometry_ms": 46.238,
+        "total_ms": 88.456
+      }
+    },
+    {
+      "frame_number": 62,
+      "timestamp_s": 2.033333,
+      "camera_position_m": 101.666664,
+      "image_path": "images/test/eval_180kmh_f0062.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5356,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00893,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.547,
+        "crack_unet_ms": 23.941,
+        "geometry_ms": 38.712,
+        "total_ms": 81.006
+      }
+    },
+    {
+      "frame_number": 63,
+      "timestamp_s": 2.066667,
+      "camera_position_m": 103.333336,
+      "image_path": "images/test/eval_180kmh_f0063.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.492,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00981,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.223,
+        "crack_unet_ms": 23.958,
+        "geometry_ms": 38.085,
+        "total_ms": 80.042
+      }
+    },
+    {
+      "frame_number": 64,
+      "timestamp_s": 2.1,
+      "camera_position_m": 105.0,
+      "image_path": "images/test/eval_180kmh_f0064.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5444,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00943,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.394,
+        "crack_unet_ms": 24.376,
+        "geometry_ms": 49.322,
+        "total_ms": 91.908
+      }
+    },
+    {
+      "frame_number": 65,
+      "timestamp_s": 2.133333,
+      "camera_position_m": 106.666664,
+      "image_path": "images/test/eval_180kmh_f0065.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4662,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01119,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.773,
+        "crack_unet_ms": 24.137,
+        "geometry_ms": 42.432,
+        "total_ms": 85.127
+      }
+    },
+    {
+      "frame_number": 66,
+      "timestamp_s": 2.166667,
+      "camera_position_m": 108.333336,
+      "image_path": "images/test/eval_180kmh_f0066.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4585,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01039,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.237,
+        "crack_unet_ms": 24.143,
+        "geometry_ms": 42.325,
+        "total_ms": 84.578
+      }
+    },
+    {
+      "frame_number": 67,
+      "timestamp_s": 2.2,
+      "camera_position_m": 110.0,
+      "image_path": "images/test/eval_180kmh_f0067.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4946,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01268,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.937,
+        "crack_unet_ms": 24.31,
+        "geometry_ms": 43.231,
+        "total_ms": 86.265
+      }
+    },
+    {
+      "frame_number": 68,
+      "timestamp_s": 2.233333,
+      "camera_position_m": 111.666664,
+      "image_path": "images/test/eval_180kmh_f0068.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5465,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00955,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.314,
+        "crack_unet_ms": 23.836,
+        "geometry_ms": 42.844,
+        "total_ms": 84.787
+      }
+    },
+    {
+      "frame_number": 69,
+      "timestamp_s": 2.266667,
+      "camera_position_m": 113.333336,
+      "image_path": "images/test/eval_180kmh_f0069.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4954,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00967,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.171,
+        "crack_unet_ms": 24.206,
+        "geometry_ms": 45.058,
+        "total_ms": 87.271
+      }
+    },
+    {
+      "frame_number": 70,
+      "timestamp_s": 2.3,
+      "camera_position_m": 115.0,
+      "image_path": "images/test/eval_180kmh_f0070.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4919,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00909,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.546,
+        "crack_unet_ms": 24.159,
+        "geometry_ms": 46.923,
+        "total_ms": 89.571
+      }
+    },
+    {
+      "frame_number": 71,
+      "timestamp_s": 2.333333,
+      "camera_position_m": 116.666664,
+      "image_path": "images/test/eval_180kmh_f0071.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4313,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00878,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.211,
+        "crack_unet_ms": 24.265,
+        "geometry_ms": 49.878,
+        "total_ms": 92.287
+      }
+    },
+    {
+      "frame_number": 72,
+      "timestamp_s": 2.366667,
+      "camera_position_m": 118.333336,
+      "image_path": "images/test/eval_180kmh_f0072.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4983,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00978,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.575,
+        "crack_unet_ms": 24.186,
+        "geometry_ms": 41.744,
+        "total_ms": 84.621
+      }
+    },
+    {
+      "frame_number": 73,
+      "timestamp_s": 2.4,
+      "camera_position_m": 120.0,
+      "image_path": "images/test/eval_180kmh_f0073.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5034,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00858,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.45,
+        "crack_unet_ms": 24.091,
+        "geometry_ms": 38.619,
+        "total_ms": 80.934
+      }
+    },
+    {
+      "frame_number": 74,
+      "timestamp_s": 2.433333,
+      "camera_position_m": 121.666664,
+      "image_path": "images/test/eval_180kmh_f0074.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4131,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.03121,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.311,
+        "crack_unet_ms": 24.139,
+        "geometry_ms": 68.277,
+        "total_ms": 110.588
+      }
+    },
+    {
+      "frame_number": 75,
+      "timestamp_s": 2.466667,
+      "camera_position_m": 123.333336,
+      "image_path": "images/test/eval_180kmh_f0075.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4222,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.03157,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.43,
+        "crack_unet_ms": 24.316,
+        "geometry_ms": 68.128,
+        "total_ms": 110.872
+      }
+    },
+    {
+      "frame_number": 76,
+      "timestamp_s": 2.5,
+      "camera_position_m": 125.0,
+      "image_path": "images/test/eval_180kmh_f0076.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4879,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00983,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.351,
+        "crack_unet_ms": 24.392,
+        "geometry_ms": 51.203,
+        "total_ms": 93.928
+      }
+    },
+    {
+      "frame_number": 77,
+      "timestamp_s": 2.533333,
+      "camera_position_m": 126.666664,
+      "image_path": "images/test/eval_180kmh_f0077.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4471,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01066,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.337,
+        "crack_unet_ms": 24.463,
+        "geometry_ms": 43.696,
+        "total_ms": 86.555
+      }
+    },
+    {
+      "frame_number": 78,
+      "timestamp_s": 2.566667,
+      "camera_position_m": 128.333328,
+      "image_path": "images/test/eval_180kmh_f0078.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4255,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0102,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.264,
+        "crack_unet_ms": 24.326,
+        "geometry_ms": 44.146,
+        "total_ms": 86.642
+      }
+    },
+    {
+      "frame_number": 79,
+      "timestamp_s": 2.6,
+      "camera_position_m": 130.0,
+      "image_path": "images/test/eval_180kmh_f0079.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5463,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0316,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.281,
+        "crack_unet_ms": 24.228,
+        "geometry_ms": 40.796,
+        "total_ms": 83.301
+      }
+    },
+    {
+      "frame_number": 80,
+      "timestamp_s": 2.633333,
+      "camera_position_m": 131.666672,
+      "image_path": "images/test/eval_180kmh_f0080.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5114,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.03118,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.999,
+        "crack_unet_ms": 24.235,
+        "geometry_ms": 38.294,
+        "total_ms": 81.406
+      }
+    },
+    {
+      "frame_number": 81,
+      "timestamp_s": 2.666667,
+      "camera_position_m": 133.333328,
+      "image_path": "images/test/eval_180kmh_f0081.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5589,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.03094,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.079,
+        "crack_unet_ms": 24.08,
+        "geometry_ms": 44.56,
+        "total_ms": 86.493
+      }
+    },
+    {
+      "frame_number": 82,
+      "timestamp_s": 2.7,
+      "camera_position_m": 135.0,
+      "image_path": "images/test/eval_180kmh_f0082.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5001,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.03103,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.114,
+        "crack_unet_ms": 24.253,
+        "geometry_ms": 38.001,
+        "total_ms": 80.191
+      }
+    },
+    {
+      "frame_number": 83,
+      "timestamp_s": 2.733333,
+      "camera_position_m": 136.666672,
+      "image_path": "images/test/eval_180kmh_f0083.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5113,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01159,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 211
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.114,
+        "crack_unet_ms": 24.079,
+        "geometry_ms": 44.87,
+        "total_ms": 86.891
+      }
+    },
+    {
+      "frame_number": 84,
+      "timestamp_s": 2.766667,
+      "camera_position_m": 138.333328,
+      "image_path": "images/test/eval_180kmh_f0084.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.722,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00881,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.226,
+        "crack_unet_ms": 24.033,
+        "geometry_ms": 40.033,
+        "total_ms": 82.069
+      }
+    },
+    {
+      "frame_number": 85,
+      "timestamp_s": 2.8,
+      "camera_position_m": 140.0,
+      "image_path": "images/test/eval_180kmh_f0085.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": true,
+        "confidence": 0.9713,
+        "pixel_area": 28,
+        "bbox": [
+          558.0,
+          314.0,
+          564.0,
+          324.0
+        ]
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00886,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 212
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.053,
+        "crack_unet_ms": 24.146,
+        "geometry_ms": 44.811,
+        "total_ms": 86.984
+      }
+    },
+    {
+      "frame_number": 86,
+      "timestamp_s": 2.833333,
+      "camera_position_m": 141.666672,
+      "image_path": "images/test/eval_180kmh_f0086.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": true,
+        "confidence": 0.9729,
+        "pixel_area": 50,
+        "bbox": [
+          572.0,
+          344.0,
+          582.0,
+          361.0
+        ]
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.02925,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.275,
+        "crack_unet_ms": 23.88,
+        "geometry_ms": 46.941,
+        "total_ms": 89.821
+      }
+    },
+    {
+      "frame_number": 87,
+      "timestamp_s": 2.866667,
+      "camera_position_m": 143.333328,
+      "image_path": "images/test/eval_180kmh_f0087.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": true,
+        "confidence": 0.9807,
+        "pixel_area": 86,
+        "bbox": [
+          593.0,
+          390.0,
+          607.0,
+          414.0
+        ]
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.02911,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.612,
+        "crack_unet_ms": 23.964,
+        "geometry_ms": 38.674,
+        "total_ms": 81.001
+      }
+    },
+    {
+      "frame_number": 88,
+      "timestamp_s": 2.9,
+      "camera_position_m": 145.0,
+      "image_path": "images/test/eval_180kmh_f0088.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": true,
+        "confidence": 0.9835,
+        "pixel_area": 152,
+        "bbox": [
+          628.0,
+          464.0,
+          651.0,
+          504.0
+        ]
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.02912,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 218
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.414,
+        "crack_unet_ms": 24.065,
+        "geometry_ms": 31.114,
+        "total_ms": 74.422
+      }
+    },
+    {
+      "frame_number": 89,
+      "timestamp_s": 2.933333,
+      "camera_position_m": 146.666672,
+      "image_path": "images/test/eval_180kmh_f0089.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5793,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.02929,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.148,
+        "crack_unet_ms": 24.172,
+        "geometry_ms": 40.511,
+        "total_ms": 82.856
+      }
+    },
+    {
+      "frame_number": 90,
+      "timestamp_s": 2.966667,
+      "camera_position_m": 148.333328,
+      "image_path": "images/test/eval_180kmh_f0090.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4329,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.02896,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.177,
+        "crack_unet_ms": 24.165,
+        "geometry_ms": 67.873,
+        "total_ms": 110.043
+      }
+    },
+    {
+      "frame_number": 91,
+      "timestamp_s": 3.0,
+      "camera_position_m": 150.0,
+      "image_path": "images/test/eval_180kmh_f0091.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5118,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.02863,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 218
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.385,
+        "crack_unet_ms": 24.373,
+        "geometry_ms": 43.801,
+        "total_ms": 86.341
+      }
+    },
+    {
+      "frame_number": 92,
+      "timestamp_s": 3.033333,
+      "camera_position_m": 151.666672,
+      "image_path": "images/test/eval_180kmh_f0092.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5088,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01023,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.221,
+        "crack_unet_ms": 23.95,
+        "geometry_ms": 42.37,
+        "total_ms": 84.231
+      }
+    },
+    {
+      "frame_number": 93,
+      "timestamp_s": 3.066667,
+      "camera_position_m": 153.333328,
+      "image_path": "images/test/eval_180kmh_f0093.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4514,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01117,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.306,
+        "crack_unet_ms": 23.833,
+        "geometry_ms": 44.185,
+        "total_ms": 86.069
+      }
+    },
+    {
+      "frame_number": 94,
+      "timestamp_s": 3.1,
+      "camera_position_m": 155.0,
+      "image_path": "images/test/eval_180kmh_f0094.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5903,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01106,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.262,
+        "crack_unet_ms": 24.166,
+        "geometry_ms": 43.444,
+        "total_ms": 85.709
+      }
+    },
+    {
+      "frame_number": 95,
+      "timestamp_s": 3.133333,
+      "camera_position_m": 156.666672,
+      "image_path": "images/test/eval_180kmh_f0095.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5131,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01086,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.311,
+        "crack_unet_ms": 24.104,
+        "geometry_ms": 43.94,
+        "total_ms": 86.22
+      }
+    },
+    {
+      "frame_number": 96,
+      "timestamp_s": 3.166667,
+      "camera_position_m": 158.333328,
+      "image_path": "images/test/eval_180kmh_f0096.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5342,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01114,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.109,
+        "crack_unet_ms": 24.415,
+        "geometry_ms": 45.13,
+        "total_ms": 87.445
+      }
+    },
+    {
+      "frame_number": 97,
+      "timestamp_s": 3.2,
+      "camera_position_m": 160.0,
+      "image_path": "images/test/eval_180kmh_f0097.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.548,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01095,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.528,
+        "crack_unet_ms": 23.922,
+        "geometry_ms": 46.125,
+        "total_ms": 88.398
+      }
+    },
+    {
+      "frame_number": 98,
+      "timestamp_s": 3.233333,
+      "camera_position_m": 161.666672,
+      "image_path": "images/test/eval_180kmh_f0098.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.459,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0092,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.151,
+        "crack_unet_ms": 24.192,
+        "geometry_ms": 40.766,
+        "total_ms": 82.966
+      }
+    },
+    {
+      "frame_number": 99,
+      "timestamp_s": 3.266667,
+      "camera_position_m": 163.333328,
+      "image_path": "images/test/eval_180kmh_f0099.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4858,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01657,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.413,
+        "crack_unet_ms": 24.562,
+        "geometry_ms": 37.943,
+        "total_ms": 80.697
+      }
+    },
+    {
+      "frame_number": 100,
+      "timestamp_s": 3.3,
+      "camera_position_m": 165.0,
+      "image_path": "images/test/eval_180kmh_f0100.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5051,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0108,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.582,
+        "crack_unet_ms": 24.262,
+        "geometry_ms": 46.789,
+        "total_ms": 89.46
+      }
+    },
+    {
+      "frame_number": 101,
+      "timestamp_s": 3.333333,
+      "camera_position_m": 166.666672,
+      "image_path": "images/test/eval_180kmh_f0101.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4507,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0789,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 223
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.123,
+        "crack_unet_ms": 23.922,
+        "geometry_ms": 41.331,
+        "total_ms": 83.104
+      }
+    },
+    {
+      "frame_number": 102,
+      "timestamp_s": 3.366667,
+      "camera_position_m": 168.333328,
+      "image_path": "images/test/eval_180kmh_f0102.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5955,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.9848,
+        "max_estimated_deviation_m": 0.06879,
+        "affected_interval_m": [
+          199.53,
+          201.95
+        ],
+        "bbox": [
+          450.21,
+          195.0,
+          515.0,
+          207.0
+        ],
+        "valid_scanlines": 224
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.158,
+        "crack_unet_ms": 24.101,
+        "geometry_ms": 41.253,
+        "total_ms": 83.465
+      }
+    },
+    {
+      "frame_number": 103,
+      "timestamp_s": 3.4,
+      "camera_position_m": 170.0,
+      "image_path": "images/test/eval_180kmh_f0103.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5221,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.8926,
+        "max_estimated_deviation_m": 0.06141,
+        "affected_interval_m": [
+          199.59,
+          202.98
+        ],
+        "bbox": [
+          449.0,
+          196.0,
+          516.07,
+          210.0
+        ],
+        "valid_scanlines": 229
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.317,
+        "crack_unet_ms": 23.728,
+        "geometry_ms": 43.338,
+        "total_ms": 85.198
+      }
+    },
+    {
+      "frame_number": 104,
+      "timestamp_s": 3.433333,
+      "camera_position_m": 171.666672,
+      "image_path": "images/test/eval_180kmh_f0104.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.456,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.07522,
+        "affected_interval_m": [
+          199.36,
+          202.86
+        ],
+        "bbox": [
+          447.5,
+          199.0,
+          518.0,
+          214.0
+        ],
+        "valid_scanlines": 230
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.13,
+        "crack_unet_ms": 24.241,
+        "geometry_ms": 69.024,
+        "total_ms": 111.417
+      }
+    },
+    {
+      "frame_number": 105,
+      "timestamp_s": 3.466667,
+      "camera_position_m": 173.333328,
+      "image_path": "images/test/eval_180kmh_f0105.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6153,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.8875,
+        "max_estimated_deviation_m": 0.061,
+        "affected_interval_m": [
+          199.76,
+          203.44
+        ],
+        "bbox": [
+          446.0,
+          201.0,
+          520.02,
+          217.0
+        ],
+        "valid_scanlines": 228
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.622,
+        "crack_unet_ms": 24.182,
+        "geometry_ms": 37.533,
+        "total_ms": 80.121
+      }
+    },
+    {
+      "frame_number": 106,
+      "timestamp_s": 3.5,
+      "camera_position_m": 175.0,
+      "image_path": "images/test/eval_180kmh_f0106.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5553,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.9788,
+        "max_estimated_deviation_m": 0.06831,
+        "affected_interval_m": [
+          198.22,
+          203.15
+        ],
+        "bbox": [
+          439.78,
+          205.0,
+          522.01,
+          226.0
+        ],
+        "valid_scanlines": 229
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.721,
+        "crack_unet_ms": 24.002,
+        "geometry_ms": 46.47,
+        "total_ms": 89.047
+      }
+    },
+    {
+      "frame_number": 107,
+      "timestamp_s": 3.533333,
+      "camera_position_m": 176.666672,
+      "image_path": "images/test/eval_180kmh_f0107.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4504,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.12789,
+        "affected_interval_m": [
+          197.12,
+          202.3
+        ],
+        "bbox": [
+          434.27,
+          211.0,
+          532.84,
+          236.0
+        ],
+        "valid_scanlines": 219
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.192,
+        "crack_unet_ms": 24.123,
+        "geometry_ms": 68.242,
+        "total_ms": 110.609
+      }
+    },
+    {
+      "frame_number": 108,
+      "timestamp_s": 3.566667,
+      "camera_position_m": 178.333328,
+      "image_path": "images/test/eval_180kmh_f0108.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4464,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.14903,
+        "affected_interval_m": [
+          197.0,
+          202.87
+        ],
+        "bbox": [
+          436.0,
+          214.0,
+          537.0,
+          244.0
+        ],
+        "valid_scanlines": 218
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.27,
+        "crack_unet_ms": 24.525,
+        "geometry_ms": 39.516,
+        "total_ms": 82.086
+      }
+    },
+    {
+      "frame_number": 109,
+      "timestamp_s": 3.6,
+      "camera_position_m": 180.0,
+      "image_path": "images/test/eval_180kmh_f0109.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5614,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.11889,
+        "affected_interval_m": [
+          196.04,
+          202.31
+        ],
+        "bbox": [
+          422.8,
+          221.0,
+          543.0,
+          259.0
+        ],
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.357,
+        "crack_unet_ms": 24.23,
+        "geometry_ms": 45.828,
+        "total_ms": 88.532
+      }
+    },
+    {
+      "frame_number": 110,
+      "timestamp_s": 3.633333,
+      "camera_position_m": 181.666672,
+      "image_path": "images/test/eval_180kmh_f0110.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4777,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.14766,
+        "affected_interval_m": [
+          196.33,
+          202.37
+        ],
+        "bbox": [
+          425.96,
+          227.0,
+          550.0,
+          269.0
+        ],
+        "valid_scanlines": 209
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.487,
+        "crack_unet_ms": 24.163,
+        "geometry_ms": 45.756,
+        "total_ms": 88.278
+      }
+    },
+    {
+      "frame_number": 111,
+      "timestamp_s": 3.666667,
+      "camera_position_m": 183.333328,
+      "image_path": "images/test/eval_180kmh_f0111.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4921,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.15534,
+        "affected_interval_m": [
+          196.93,
+          201.8
+        ],
+        "bbox": [
+          416.54,
+          237.0,
+          554.48,
+          278.0
+        ],
+        "valid_scanlines": 211
+      },
+      "latencies_ms": {
+        "yolo_ms": 18.003,
+        "crack_unet_ms": 24.351,
+        "geometry_ms": 65.954,
+        "total_ms": 109.162
+      }
+    },
+    {
+      "frame_number": 112,
+      "timestamp_s": 3.7,
+      "camera_position_m": 185.0,
+      "image_path": "images/test/eval_180kmh_f0112.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4948,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.16377,
+        "affected_interval_m": [
+          197.31,
+          201.35
+        ],
+        "bbox": [
+          409.37,
+          249.0,
+          561.61,
+          291.0
+        ],
+        "valid_scanlines": 206
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.416,
+        "crack_unet_ms": 24.345,
+        "geometry_ms": 42.555,
+        "total_ms": 85.334
+      }
+    },
+    {
+      "frame_number": 113,
+      "timestamp_s": 3.733333,
+      "camera_position_m": 186.666672,
+      "image_path": "images/test/eval_180kmh_f0113.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4884,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.08564,
+        "affected_interval_m": [
+          197.34,
+          202.12
+        ],
+        "bbox": [
+          399.95,
+          255.0,
+          573.46,
+          312.0
+        ],
+        "valid_scanlines": 212
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.229,
+        "crack_unet_ms": 24.029,
+        "geometry_ms": 36.477,
+        "total_ms": 78.664
+      }
+    },
+    {
+      "frame_number": 114,
+      "timestamp_s": 3.766667,
+      "camera_position_m": 188.333328,
+      "image_path": "images/test/eval_180kmh_f0114.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.457,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.10943,
+        "affected_interval_m": [
+          197.39,
+          203.12
+        ],
+        "bbox": [
+          388.35,
+          260.0,
+          588.64,
+          340.0
+        ],
+        "valid_scanlines": 207
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.442,
+        "crack_unet_ms": 24.154,
+        "geometry_ms": 33.431,
+        "total_ms": 75.836
+      }
+    },
+    {
+      "frame_number": 115,
+      "timestamp_s": 3.8,
+      "camera_position_m": 190.0,
+      "image_path": "images/test/eval_180kmh_f0115.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5742,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.09224,
+        "affected_interval_m": [
+          197.36,
+          202.23
+        ],
+        "bbox": [
+          367.52,
+          284.0,
+          609.38,
+          382.0
+        ],
+        "valid_scanlines": 207
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.234,
+        "crack_unet_ms": 24.093,
+        "geometry_ms": 44.129,
+        "total_ms": 86.253
+      }
+    },
+    {
+      "frame_number": 116,
+      "timestamp_s": 3.833333,
+      "camera_position_m": 191.666672,
+      "image_path": "images/test/eval_180kmh_f0116.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4549,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.08814,
+        "affected_interval_m": [
+          197.18,
+          202.69
+        ],
+        "bbox": [
+          333.06,
+          299.0,
+          638.44,
+          456.0
+        ],
+        "valid_scanlines": 199
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.437,
+        "crack_unet_ms": 26.529,
+        "geometry_ms": 41.222,
+        "total_ms": 86.064
+      }
+    },
+    {
+      "frame_number": 117,
+      "timestamp_s": 3.866667,
+      "camera_position_m": 193.333328,
+      "image_path": "images/test/eval_180kmh_f0117.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6779,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.08937,
+        "affected_interval_m": [
+          198.85,
+          202.34
+        ],
+        "bbox": [
+          341.19,
+          333.0,
+          654.5,
+          456.0
+        ],
+        "valid_scanlines": 200
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.524,
+        "crack_unet_ms": 23.822,
+        "geometry_ms": 41.588,
+        "total_ms": 83.867
+      }
+    },
+    {
+      "frame_number": 118,
+      "timestamp_s": 3.9,
+      "camera_position_m": 195.0,
+      "image_path": "images/test/eval_180kmh_f0118.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4657,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": true,
+        "confidence": 0.99,
+        "max_estimated_deviation_m": 0.08434,
+        "affected_interval_m": [
+          200.52,
+          202.82
+        ],
+        "bbox": [
+          326.3,
+          361.0,
+          642.6,
+          456.0
+        ],
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.38,
+        "crack_unet_ms": 24.07,
+        "geometry_ms": 45.999,
+        "total_ms": 88.329
+      }
+    },
+    {
+      "frame_number": 119,
+      "timestamp_s": 3.933333,
+      "camera_position_m": 196.666672,
+      "image_path": "images/test/eval_180kmh_f0119.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4857,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.03773,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.109,
+        "crack_unet_ms": 24.11,
+        "geometry_ms": 48.612,
+        "total_ms": 90.676
+      }
+    },
+    {
+      "frame_number": 120,
+      "timestamp_s": 3.966667,
+      "camera_position_m": 198.333328,
+      "image_path": "images/test/eval_180kmh_f0120.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5092,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01038,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.12,
+        "crack_unet_ms": 24.28,
+        "geometry_ms": 43.483,
+        "total_ms": 85.841
+      }
+    },
+    {
+      "frame_number": 121,
+      "timestamp_s": 4.0,
+      "camera_position_m": 200.0,
+      "image_path": "images/test/eval_180kmh_f0121.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5313,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00897,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 212
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.101,
+        "crack_unet_ms": 24.206,
+        "geometry_ms": 45.038,
+        "total_ms": 87.254
+      }
+    },
+    {
+      "frame_number": 122,
+      "timestamp_s": 4.033333,
+      "camera_position_m": 201.666672,
+      "image_path": "images/test/eval_180kmh_f0122.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5248,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01363,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.55,
+        "crack_unet_ms": 24.238,
+        "geometry_ms": 44.239,
+        "total_ms": 86.839
+      }
+    },
+    {
+      "frame_number": 123,
+      "timestamp_s": 4.066667,
+      "camera_position_m": 203.333328,
+      "image_path": "images/test/eval_180kmh_f0123.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5681,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00917,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.265,
+        "crack_unet_ms": 24.284,
+        "geometry_ms": 42.507,
+        "total_ms": 84.932
+      }
+    },
+    {
+      "frame_number": 124,
+      "timestamp_s": 4.1,
+      "camera_position_m": 205.0,
+      "image_path": "images/test/eval_180kmh_f0124.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.6208,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00968,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 217
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.443,
+        "crack_unet_ms": 24.049,
+        "geometry_ms": 45.74,
+        "total_ms": 88.095
+      }
+    },
+    {
+      "frame_number": 125,
+      "timestamp_s": 4.133333,
+      "camera_position_m": 206.666672,
+      "image_path": "images/test/eval_180kmh_f0125.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4334,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00855,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.67,
+        "crack_unet_ms": 24.488,
+        "geometry_ms": 62.732,
+        "total_ms": 105.786
+      }
+    },
+    {
+      "frame_number": 126,
+      "timestamp_s": 4.166667,
+      "camera_position_m": 208.333328,
+      "image_path": "images/test/eval_180kmh_f0126.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4344,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00859,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 213
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.482,
+        "crack_unet_ms": 24.268,
+        "geometry_ms": 39.667,
+        "total_ms": 82.267
+      }
+    },
+    {
+      "frame_number": 127,
+      "timestamp_s": 4.2,
+      "camera_position_m": 210.0,
+      "image_path": "images/test/eval_180kmh_f0127.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4671,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00937,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 214
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.134,
+        "crack_unet_ms": 23.796,
+        "geometry_ms": 40.077,
+        "total_ms": 81.774
+      }
+    },
+    {
+      "frame_number": 128,
+      "timestamp_s": 4.233333,
+      "camera_position_m": 211.666672,
+      "image_path": "images/test/eval_180kmh_f0128.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4437,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01046,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.985,
+        "crack_unet_ms": 24.116,
+        "geometry_ms": 42.566,
+        "total_ms": 84.496
+      }
+    },
+    {
+      "frame_number": 129,
+      "timestamp_s": 4.266667,
+      "camera_position_m": 213.333328,
+      "image_path": "images/test/eval_180kmh_f0129.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5449,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01115,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 215
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.565,
+        "crack_unet_ms": 24.247,
+        "geometry_ms": 47.862,
+        "total_ms": 90.505
+      }
+    },
+    {
+      "frame_number": 130,
+      "timestamp_s": 4.3,
+      "camera_position_m": 215.0,
+      "image_path": "images/test/eval_180kmh_f0130.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5864,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01615,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.226,
+        "crack_unet_ms": 24.155,
+        "geometry_ms": 42.889,
+        "total_ms": 85.058
+      }
+    },
+    {
+      "frame_number": 131,
+      "timestamp_s": 4.333333,
+      "camera_position_m": 216.666672,
+      "image_path": "images/test/eval_180kmh_f0131.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4722,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01501,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 220
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.536,
+        "crack_unet_ms": 24.136,
+        "geometry_ms": 45.043,
+        "total_ms": 87.508
+      }
+    },
+    {
+      "frame_number": 132,
+      "timestamp_s": 4.366667,
+      "camera_position_m": 218.333328,
+      "image_path": "images/test/eval_180kmh_f0132.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4718,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01067,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 220
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.178,
+        "crack_unet_ms": 24.202,
+        "geometry_ms": 34.793,
+        "total_ms": 76.92
+      }
+    },
+    {
+      "frame_number": 133,
+      "timestamp_s": 4.4,
+      "camera_position_m": 220.0,
+      "image_path": "images/test/eval_180kmh_f0133.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5203,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01337,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 220
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.283,
+        "crack_unet_ms": 24.059,
+        "geometry_ms": 34.741,
+        "total_ms": 77.012
+      }
+    },
+    {
+      "frame_number": 134,
+      "timestamp_s": 4.433333,
+      "camera_position_m": 221.666672,
+      "image_path": "images/test/eval_180kmh_f0134.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.645,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01262,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 218
+      },
+      "latencies_ms": {
+        "yolo_ms": 17.095,
+        "crack_unet_ms": 23.199,
+        "geometry_ms": 31.965,
+        "total_ms": 73.087
+      }
+    },
+    {
+      "frame_number": 135,
+      "timestamp_s": 4.466667,
+      "camera_position_m": 223.333328,
+      "image_path": "images/test/eval_180kmh_f0135.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5429,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00892,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 216
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.484,
+        "crack_unet_ms": 22.072,
+        "geometry_ms": 51.888,
+        "total_ms": 90.246
+      }
+    },
+    {
+      "frame_number": 136,
+      "timestamp_s": 4.5,
+      "camera_position_m": 225.0,
+      "image_path": "images/test/eval_180kmh_f0136.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4867,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0095,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 220
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.746,
+        "crack_unet_ms": 21.866,
+        "geometry_ms": 37.02,
+        "total_ms": 75.337
+      }
+    },
+    {
+      "frame_number": 137,
+      "timestamp_s": 4.533333,
+      "camera_position_m": 226.666672,
+      "image_path": "images/test/eval_180kmh_f0137.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5041,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01102,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 220
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.395,
+        "crack_unet_ms": 21.892,
+        "geometry_ms": 38.774,
+        "total_ms": 76.765
+      }
+    },
+    {
+      "frame_number": 138,
+      "timestamp_s": 4.566667,
+      "camera_position_m": 228.333328,
+      "image_path": "images/test/eval_180kmh_f0138.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4778,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00994,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 218
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.007,
+        "crack_unet_ms": 22.092,
+        "geometry_ms": 43.027,
+        "total_ms": 82.107
+      }
+    },
+    {
+      "frame_number": 139,
+      "timestamp_s": 4.6,
+      "camera_position_m": 230.0,
+      "image_path": "images/test/eval_180kmh_f0139.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4553,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00981,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 210
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.552,
+        "crack_unet_ms": 21.602,
+        "geometry_ms": 42.568,
+        "total_ms": 80.455
+      }
+    },
+    {
+      "frame_number": 140,
+      "timestamp_s": 4.633333,
+      "camera_position_m": 231.666672,
+      "image_path": "images/test/eval_180kmh_f0140.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4955,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00725,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 204
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.269,
+        "crack_unet_ms": 21.946,
+        "geometry_ms": 41.997,
+        "total_ms": 81.063
+      }
+    },
+    {
+      "frame_number": 141,
+      "timestamp_s": 4.666667,
+      "camera_position_m": 233.333328,
+      "image_path": "images/test/eval_180kmh_f0141.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4983,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00489,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 196
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.145,
+        "crack_unet_ms": 22.776,
+        "geometry_ms": 66.484,
+        "total_ms": 106.333
+      }
+    },
+    {
+      "frame_number": 142,
+      "timestamp_s": 4.7,
+      "camera_position_m": 235.0,
+      "image_path": "images/test/eval_180kmh_f0142.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.5691,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00574,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 189
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.922,
+        "crack_unet_ms": 21.823,
+        "geometry_ms": 39.56,
+        "total_ms": 79.183
+      }
+    },
+    {
+      "frame_number": 143,
+      "timestamp_s": 4.733333,
+      "camera_position_m": 236.666672,
+      "image_path": "images/test/eval_180kmh_f0143.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4357,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.01095,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 177
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.06,
+        "crack_unet_ms": 22.135,
+        "geometry_ms": 44.116,
+        "total_ms": 83.132
+      }
+    },
+    {
+      "frame_number": 144,
+      "timestamp_s": 4.766667,
+      "camera_position_m": 238.333328,
+      "image_path": "images/test/eval_180kmh_f0144.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.454,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00376,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 159
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.667,
+        "crack_unet_ms": 21.673,
+        "geometry_ms": 31.564,
+        "total_ms": 69.615
+      }
+    },
+    {
+      "frame_number": 145,
+      "timestamp_s": 4.8,
+      "camera_position_m": 240.0,
+      "image_path": "images/test/eval_180kmh_f0145.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4957,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00425,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 135
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.87,
+        "crack_unet_ms": 22.34,
+        "geometry_ms": 44.756,
+        "total_ms": 83.869
+      }
+    },
+    {
+      "frame_number": 146,
+      "timestamp_s": 4.833333,
+      "camera_position_m": 241.666672,
+      "image_path": "images/test/eval_180kmh_f0146.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4977,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00184,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 101
+      },
+      "latencies_ms": {
+        "yolo_ms": 16.051,
+        "crack_unet_ms": 21.694,
+        "geometry_ms": 42.693,
+        "total_ms": 81.233
+      }
+    },
+    {
+      "frame_number": 147,
+      "timestamp_s": 4.866667,
+      "camera_position_m": 243.333328,
+      "image_path": "images/test/eval_180kmh_f0147.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.4865,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.00146,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 52
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.449,
+        "crack_unet_ms": 21.725,
+        "geometry_ms": 40.888,
+        "total_ms": 78.996
+      }
+    },
+    {
+      "frame_number": 148,
+      "timestamp_s": 4.9,
+      "camera_position_m": 245.0,
+      "image_path": "images/test/eval_180kmh_f0148.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.2672,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 0
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.695,
+        "crack_unet_ms": 21.778,
+        "geometry_ms": 40.733,
+        "total_ms": 79.23
+      }
+    },
+    {
+      "frame_number": 149,
+      "timestamp_s": 4.933333,
+      "camera_position_m": 246.666672,
+      "image_path": "images/test/eval_180kmh_f0149.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.2466,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 0
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.701,
+        "crack_unet_ms": 21.779,
+        "geometry_ms": 34.441,
+        "total_ms": 72.727
+      }
+    },
+    {
+      "frame_number": 150,
+      "timestamp_s": 4.966667,
+      "camera_position_m": 248.333328,
+      "image_path": "images/test/eval_180kmh_f0150.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.2396,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 0
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.404,
+        "crack_unet_ms": 21.859,
+        "geometry_ms": 41.623,
+        "total_ms": 79.773
+      }
+    },
+    {
+      "frame_number": 151,
+      "timestamp_s": 5.0,
+      "camera_position_m": 250.0,
+      "image_path": "images/test/eval_180kmh_f0151.png",
+      "yolo_detections": [],
+      "crack_prediction": {
+        "detected": false,
+        "confidence": 0.2119,
+        "pixel_area": 0,
+        "bbox": null
+      },
+      "geometry_prediction": {
+        "detected": false,
+        "confidence": 0.0,
+        "max_estimated_deviation_m": 0.0,
+        "affected_interval_m": null,
+        "bbox": null,
+        "valid_scanlines": 0
+      },
+      "latencies_ms": {
+        "yolo_ms": 15.581,
+        "crack_unet_ms": 21.467,
+        "geometry_ms": 32.86,
+        "total_ms": 70.697
+      }
+    }
+  ]
+}

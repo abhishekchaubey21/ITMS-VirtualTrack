@@ -1,0 +1,10 @@
+video_id,dataset_group,speed_kmh,frame,camera_position_m,anomaly_id,distance_m,gt_width_px,gt_height_px,touches_bottom_edge,cause_classification
+eval_30kmh,controlled_evaluation,30,168,46.389,A1,3.611,220.0,14.8,True,Frustum bottom-edge clipping (d=3.61-4.17m)
+eval_30kmh,controlled_evaluation,30,347,96.111,A2,3.889,348.1,30.9,True,Frustum bottom-edge clipping (d=3.61-4.17m)
+eval_60kmh,controlled_evaluation,60,84,46.111,A1,3.889,205.4,38.9,True,Frustum bottom-edge clipping (d=3.61-4.17m)
+eval_60kmh,controlled_evaluation,60,174,96.111,A2,3.889,348.1,30.9,True,Frustum bottom-edge clipping (d=3.61-4.17m)
+eval_200kmh,controlled_evaluation,200,26,46.296,A1,3.704,214.9,23.2,True,Frustum bottom-edge clipping (d=3.61-4.17m)
+eval_200kmh,controlled_evaluation,200,53,96.296,A2,3.704,365.9,17.7,True,Frustum bottom-edge clipping (d=3.61-4.17m)
+var_18,randomized_variants,120,59,64.444,A2,35.556,47.2,8.1,False,Small distant entry miss (gt height ~8.1px)
+var_19,randomized_variants,150,47,63.889,A2,36.111,57.4,8.1,False,Small distant entry miss (gt height ~8.1px)
+var_19,randomized_variants,150,70,95.833,A2,4.167,492.7,47.7,True,Frustum bottom-edge clipping (d=3.61-4.17m)

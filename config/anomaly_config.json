@@ -1,0 +1,168 @@
+{
+  "data_label": "SYNTHETIC",
+  "classes": {
+    "0": {
+      "name": "animal_carcass",
+      "detection_method": "object_detection",
+      "yolo_enabled": true
+    },
+    "1": {
+      "name": "grain_spillage",
+      "detection_method": "object_detection",
+      "yolo_enabled": true
+    },
+    "2": {
+      "name": "rail_crack",
+      "detection_method": "segmentation",
+      "yolo_enabled": false
+    },
+    "3": {
+      "name": "rail_misalignment",
+      "detection_method": "geometric_analysis",
+      "yolo_enabled": false
+    }
+  },
+  "anomalies": {
+    "A1": {
+      "id": "A1",
+      "class": "animal_carcass",
+      "class_id": 0,
+      "detection_method": "object_detection",
+      "position_m": 50.0,
+      "lateral_offset_m": 0.22,
+      "yaw_deg": 32.0,
+      "dimensions_m": {
+        "length": 1.15,
+        "width": 0.45,
+        "height": 0.42
+      },
+      "non_graphic": true,
+      "description": "Non-graphic procedural 3D animal-shaped obstruction placed on/near track at 50m."
+    },
+    "A2": {
+      "id": "A2",
+      "class": "grain_spillage",
+      "class_id": 1,
+      "detection_method": "object_detection",
+      "position_m": 100.0,
+      "lateral_offset_m": -0.10,
+      "yaw_deg": 12.0,
+      "dimensions_m": {
+        "length": 1.80,
+        "width": 1.10,
+        "height": 0.14
+      },
+      "particle_count": 450,
+      "grain_color_rgb": [0.85, 0.72, 0.35],
+      "description": "Procedural grain mound and scattered grain clusters across ballast/sleepers at 100m."
+    },
+    "A3": {
+      "id": "A3",
+      "class": "rail_crack",
+      "class_id": 2,
+      "detection_method": "segmentation",
+      "position_m": 150.0,
+      "target_rail": "right",
+      "crack_length_m": 0.65,
+      "crack_width_m": 0.024,
+      "crack_depth_m": 0.014,
+      "generate_segmentation_mask": true,
+      "description": "Simulated visual rail-head crack defect at 150m for CV segmentation analysis."
+    },
+    "A4": {
+      "id": "A4",
+      "class": "rail_misalignment",
+      "class_id": 3,
+      "detection_method": "geometric_analysis",
+      "position_m": 200.0,
+      "affected_span_m": 8.0,
+      "start_m": 196.0,
+      "end_m": 204.0,
+      "max_lateral_deviation_m": 0.085,
+      "affected_rails": "both",
+      "generate_segmentation_mask": true,
+      "description": "Controlled lateral sinusoidal rail geometry deviation centered at 200m."
+    }
+  },
+  "ground_truth_rules": {
+    "min_bbox_width_px": 8,
+    "min_bbox_height_px": 8,
+    "min_bbox_area_px": 80,
+    "min_visible_fraction": 0.15,
+    "max_annotation_distance_m": 120.0,
+    "check_occlusion": true
+  },
+  "scene_variants": {
+    "base_experiment": {
+      "split": "test",
+      "weather": "clear_daylight",
+      "sun_elevation_deg": 32.0,
+      "sun_azimuth_deg": 125.0,
+      "sun_energy": 4.5,
+      "sky_strength": 0.12,
+      "turbidity": 2.2,
+      "exposure_ev": 0.0,
+      "ballast_tint_scale": 1.0,
+      "ground_tint_scale": 1.0,
+      "anomaly_scale_factor": 1.0,
+      "anomaly_yaw_delta_deg": 0.0
+    },
+    "variant_morning_clear": {
+      "split": "train",
+      "weather": "morning_low_sun",
+      "sun_elevation_deg": 20.0,
+      "sun_azimuth_deg": 88.0,
+      "sun_energy": 4.2,
+      "sky_strength": 0.10,
+      "turbidity": 2.8,
+      "exposure_ev": 0.15,
+      "ballast_tint_scale": 0.92,
+      "ground_tint_scale": 0.94,
+      "anomaly_scale_factor": 1.08,
+      "anomaly_yaw_delta_deg": 18.0
+    },
+    "variant_noon_bright": {
+      "split": "train",
+      "weather": "bright_midday",
+      "sun_elevation_deg": 62.0,
+      "sun_azimuth_deg": 175.0,
+      "sun_energy": 5.2,
+      "sky_strength": 0.14,
+      "turbidity": 1.8,
+      "exposure_ev": -0.25,
+      "ballast_tint_scale": 1.12,
+      "ground_tint_scale": 1.08,
+      "anomaly_scale_factor": 0.90,
+      "anomaly_yaw_delta_deg": -24.0
+    },
+    "variant_cloudy_diffuse": {
+      "split": "train",
+      "weather": "hazy_overcast",
+      "sun_elevation_deg": 38.0,
+      "sun_azimuth_deg": 210.0,
+      "sun_energy": 1.8,
+      "sky_strength": 0.16,
+      "turbidity": 6.5,
+      "exposure_ev": -0.10,
+      "ballast_tint_scale": 0.85,
+      "ground_tint_scale": 0.88,
+      "anomaly_scale_factor": 1.12,
+      "anomaly_yaw_delta_deg": 42.0
+    },
+    "variant_overcast_dusk": {
+      "split": "val",
+      "weather": "late_afternoon_haze",
+      "sun_elevation_deg": 16.0,
+      "sun_azimuth_deg": 242.0,
+      "sun_energy": 2.4,
+      "sky_strength": 0.11,
+      "turbidity": 4.8,
+      "exposure_ev": -0.35,
+      "ballast_tint_scale": 0.88,
+      "ground_tint_scale": 0.90,
+      "anomaly_scale_factor": 0.96,
+      "anomaly_yaw_delta_deg": 28.0
+    }
+  }
+}
+

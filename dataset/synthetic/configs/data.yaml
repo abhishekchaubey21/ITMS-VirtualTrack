@@ -1,0 +1,12 @@
+# ITMS-VirtualTrack SYNTHETIC Railway Anomaly Detection Dataset
+# Controlled YOLO object-detection classes only (A1 & A2).
+# A3 (rail_crack) uses segmentation masks; A4 (rail_misalignment) uses geometry profiles.
+path: D:/ITMS-VirtualTrack/dataset/synthetic
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2
+names:
+  0: animal_carcass
+  1: grain_spillage

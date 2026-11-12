@@ -1,0 +1,11 @@
+video_id,dataset_group,speed_kmh,frame_count,yolo_ms_mean,yolo_ms_p95,crack_unet_ms_mean,crack_unet_ms_p95,geometry_ms_mean,geometry_ms_p95,geometry_share_pct,compute_only_ms_mean,compute_only_ms_p95,compute_only_fps,budget_30fps_ms,budget_60fps_ms,meets_30fps,meets_60fps,slowdown_vs_30fps,slowdown_vs_60fps
+eval_30kmh,controlled_evaluation,30,901,20.709,20.343,23.161,24.856,53.241,72.768,54.3,98.094,117.412,10.19,33.333,16.667,False,False,2.94,5.89
+eval_60kmh,controlled_evaluation,60,451,18.213,20.212,24.105,24.567,48.733,68.798,52.9,92.069,114.188,10.86,33.333,16.667,False,False,2.76,5.52
+eval_90kmh,controlled_evaluation,90,301,17.437,18.765,23.577,24.384,43.6,58.973,51.0,85.56,102.615,11.69,33.333,16.667,False,False,2.57,5.13
+eval_120kmh,controlled_evaluation,120,226,17.364,18.816,23.466,24.375,42.919,50.716,50.7,84.714,93.899,11.8,33.333,16.667,False,False,2.54,5.08
+eval_150kmh,controlled_evaluation,150,181,17.23,18.554,23.25,24.319,43.562,57.923,51.2,85.073,100.369,11.75,33.333,16.667,False,False,2.55,5.1
+eval_180kmh,controlled_evaluation,180,151,17.232,18.63,23.425,24.439,44.055,67.117,51.4,85.627,109.303,11.68,33.333,16.667,False,False,2.57,5.14
+eval_200kmh,controlled_evaluation,200,136,17.301,20.77,22.736,24.627,43.757,61.202,51.5,84.922,104.698,11.78,33.333,16.667,False,False,2.55,5.1
+var_17,randomized_variants,180,151,17.118,19.27,22.968,24.3,43.732,61.276,51.6,84.757,100.445,11.8,33.333,16.667,False,False,2.54,5.09
+var_18,randomized_variants,120,226,17.512,18.759,23.705,24.385,43.636,64.235,50.8,85.86,106.905,11.65,33.333,16.667,False,False,2.58,5.15
+var_19,randomized_variants,150,181,17.523,18.373,23.831,24.481,44.227,62.104,51.1,86.53,106.504,11.56,33.333,16.667,False,False,2.6,5.19

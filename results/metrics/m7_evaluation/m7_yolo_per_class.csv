@@ -1,0 +1,21 @@
+video_id,dataset_group,speed_kmh,class_key,class_label,gt_boxes,tp_conf025,fp_conf025,fn_conf025,precision_conf025,recall_conf025,f1_conf025,ap50_conf001,ap50_95_conf001,ap50_coco101_conf001,ap50_95_coco101_conf001
+eval_30kmh,controlled_evaluation,30,0_animal_carcass,animal_carcass (A1),168,167,1,1,0.994,0.994,0.994,0.994,0.8328,0.99,0.829
+eval_30kmh,controlled_evaluation,30,1_grain_spillage,grain_spillage (A2),108,107,8,1,0.9304,0.9907,0.9596,0.9976,0.7759,0.9974,0.7763
+eval_60kmh,controlled_evaluation,60,0_animal_carcass,animal_carcass (A1),84,83,1,1,0.9881,0.9881,0.9881,0.9999,0.8263,0.9998,0.8252
+eval_60kmh,controlled_evaluation,60,1_grain_spillage,grain_spillage (A2),54,53,1,1,0.9815,0.9815,0.9815,0.9956,0.778,0.9953,0.7785
+eval_90kmh,controlled_evaluation,90,0_animal_carcass,animal_carcass (A1),56,56,0,0,1.0,1.0,1.0,1.0,0.8342,1.0,0.8335
+eval_90kmh,controlled_evaluation,90,1_grain_spillage,grain_spillage (A2),36,36,1,0,0.973,1.0,0.9863,1.0,0.7759,1.0,0.7767
+eval_120kmh,controlled_evaluation,120,0_animal_carcass,animal_carcass (A1),42,42,0,0,1.0,1.0,1.0,1.0,0.8564,1.0,0.8569
+eval_120kmh,controlled_evaluation,120,1_grain_spillage,grain_spillage (A2),27,27,1,0,0.9643,1.0,0.9818,1.0,0.7879,1.0,0.789
+eval_150kmh,controlled_evaluation,150,0_animal_carcass,animal_carcass (A1),34,34,0,0,1.0,1.0,1.0,1.0,0.8276,1.0,0.8278
+eval_150kmh,controlled_evaluation,150,1_grain_spillage,grain_spillage (A2),22,22,0,0,1.0,1.0,1.0,1.0,0.7841,1.0,0.7843
+eval_180kmh,controlled_evaluation,180,0_animal_carcass,animal_carcass (A1),28,28,0,0,1.0,1.0,1.0,1.0,0.8463,1.0,0.8462
+eval_180kmh,controlled_evaluation,180,1_grain_spillage,grain_spillage (A2),18,18,0,0,1.0,1.0,1.0,1.0,0.8154,1.0,0.8151
+eval_200kmh,controlled_evaluation,200,0_animal_carcass,animal_carcass (A1),26,25,0,1,1.0,0.9615,0.9804,0.9615,0.8249,0.9604,0.8248
+eval_200kmh,controlled_evaluation,200,1_grain_spillage,grain_spillage (A2),17,16,0,1,1.0,0.9412,0.9697,0.9412,0.7606,0.9406,0.7608
+var_17,randomized_variants,180,0_animal_carcass,animal_carcass (A1),28,28,0,0,1.0,1.0,1.0,1.0,0.8234,1.0,0.8235
+var_17,randomized_variants,180,1_grain_spillage,grain_spillage (A2),16,16,2,0,0.8889,1.0,0.9412,1.0,0.8023,1.0,0.8033
+var_18,randomized_variants,120,0_animal_carcass,animal_carcass (A1),42,42,0,0,1.0,1.0,1.0,1.0,0.7994,1.0,0.8004
+var_18,randomized_variants,120,1_grain_spillage,grain_spillage (A2),29,28,0,1,1.0,0.9655,0.9825,1.0,0.7777,1.0,0.7789
+var_19,randomized_variants,150,0_animal_carcass,animal_carcass (A1),34,34,0,0,1.0,1.0,1.0,1.0,0.8979,1.0,0.8979
+var_19,randomized_variants,150,1_grain_spillage,grain_spillage (A2),24,22,1,2,0.9565,0.9167,0.9362,0.9531,0.8115,0.9455,0.8068

@@ -1,0 +1,11 @@
+video_id,dataset_group,speed_kmh,frame_count,tp_conf025,fp_conf025,fn_conf025,fp_outside_positive_frames,precision_conf025,recall_conf025,f1_conf025,mAP50_conf001,mAP50_95_conf001,mAP50_coco101_conf001,mAP50_95_coco101_conf001,mAP50_trunc_conf025,mAP50_95_trunc_conf025,events_detected,total_events,event_recall
+eval_30kmh,controlled_evaluation,30,901,274,9,2,8,0.9682,0.9928,0.9803,0.9958,0.8043,0.9937,0.8026,0.9922,0.8032,2,2,1.0
+eval_60kmh,controlled_evaluation,60,451,136,2,2,1,0.9855,0.9855,0.9855,0.9977,0.8021,0.9975,0.8019,0.9846,0.796,2,2,1.0
+eval_90kmh,controlled_evaluation,90,301,92,1,0,1,0.9892,1.0,0.9946,1.0,0.805,1.0,0.8051,1.0,0.8051,2,2,1.0
+eval_120kmh,controlled_evaluation,120,226,69,1,0,1,0.9857,1.0,0.9928,1.0,0.8221,1.0,0.823,1.0,0.8221,2,2,1.0
+eval_150kmh,controlled_evaluation,150,181,56,0,0,0,1.0,1.0,1.0,1.0,0.8059,1.0,0.8061,1.0,0.8059,2,2,1.0
+eval_180kmh,controlled_evaluation,180,151,46,0,0,0,1.0,1.0,1.0,1.0,0.8308,1.0,0.8306,1.0,0.8309,2,2,1.0
+eval_200kmh,controlled_evaluation,200,136,41,0,2,0,1.0,0.9535,0.9762,0.9514,0.7928,0.9505,0.7928,0.9514,0.7928,2,2,1.0
+var_17,randomized_variants,180,151,44,2,0,2,0.9565,1.0,0.9778,1.0,0.8128,1.0,0.8134,1.0,0.8128,2,2,1.0
+var_18,randomized_variants,120,226,70,0,1,0,1.0,0.9859,0.9929,1.0,0.7885,1.0,0.7896,0.9828,0.7752,2,2,1.0
+var_19,randomized_variants,150,181,56,1,2,0,0.9825,0.9655,0.9739,0.9766,0.8547,0.9728,0.8523,0.9565,0.8407,2,2,1.0

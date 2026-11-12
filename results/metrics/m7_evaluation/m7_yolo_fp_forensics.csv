@@ -1,0 +1,17 @@
+video_id,dataset_group,speed_kmh,frame,camera_position_m,pred_class_id,confidence,has_visible_gt,cause_classification
+eval_30kmh,controlled_evaluation,30,167,46.111,0,0.4801,True,Bottom-edge crop IoU < 0.50 (y2=540px)
+eval_30kmh,controlled_evaluation,30,229,63.333,1,0.2836,False,Early valid A2 detection before GT min-pixel cutoff
+eval_30kmh,controlled_evaluation,30,232,64.167,1,0.2577,False,Early valid A2 detection before GT min-pixel cutoff
+eval_30kmh,controlled_evaluation,30,234,64.722,1,0.4352,False,Early valid A2 detection before GT min-pixel cutoff
+eval_30kmh,controlled_evaluation,30,235,65.0,1,0.2504,False,Early valid A2 detection before GT min-pixel cutoff
+eval_30kmh,controlled_evaluation,30,236,65.278,1,0.3314,False,Early valid A2 detection before GT min-pixel cutoff
+eval_30kmh,controlled_evaluation,30,237,65.556,1,0.3657,False,Early valid A2 detection before GT min-pixel cutoff
+eval_30kmh,controlled_evaluation,30,238,65.833,1,0.4872,False,Early valid A2 detection before GT min-pixel cutoff
+eval_30kmh,controlled_evaluation,30,239,66.111,1,0.6087,False,Early valid A2 detection before GT min-pixel cutoff
+eval_60kmh,controlled_evaluation,60,84,46.111,0,0.3575,True,Bottom-edge crop IoU < 0.50 (y2=540px)
+eval_60kmh,controlled_evaluation,60,120,66.111,1,0.6375,False,Early valid A2 detection before GT min-pixel cutoff
+eval_90kmh,controlled_evaluation,90,80,65.833,1,0.3618,False,Early valid A2 detection before GT min-pixel cutoff
+eval_120kmh,controlled_evaluation,120,60,65.556,1,0.2546,False,Early valid A2 detection before GT min-pixel cutoff
+var_17,randomized_variants,180,41,66.667,1,0.3016,False,Early valid A2 detection before GT min-pixel cutoff
+var_17,randomized_variants,180,42,68.333,1,0.5748,False,Early valid A2 detection before GT min-pixel cutoff
+var_19,randomized_variants,150,70,95.833,1,0.5779,True,Bottom-edge crop IoU < 0.50 (y2=540px)

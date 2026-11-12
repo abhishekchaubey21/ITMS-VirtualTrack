@@ -1,0 +1,52 @@
+{
+  "data_label": "SYNTHETIC",
+  "mounting": {
+    "lateral_offset_m": 0.0,
+    "longitudinal_offset_m": 0.0,
+    "height_above_rail_head_m": 1.85,
+    "fixed_trajectory": true,
+    "description": "Front-facing train-mounted camera centered over track gauge, looking along +Y."
+  },
+  "orientation_deg": {
+    "pitch_deg": -7.5,
+    "roll_deg": 0.0,
+    "yaw_deg": 0.0,
+    "blender_euler_order": "XYZ",
+    "blender_base_rx_deg": 90.0,
+    "notes": "In Blender, camera local -Z is optical axis; RX=90 + pitch_deg points forward along +Y and downward by |pitch_deg|."
+  },
+  "optics": {
+    "focal_length_mm": 35.0,
+    "sensor_width_mm": 36.0,
+    "sensor_height_mm": 20.25,
+    "sensor_fit": "HORIZONTAL",
+    "clip_start_m": 0.2,
+    "clip_end_m": 500.0
+  },
+  "resolution": {
+    "production": {
+      "width": 1920,
+      "height": 1080
+    },
+    "preview": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  "timing": {
+    "preview_fps": 30,
+    "production_fps": 60,
+    "fps_base": 1.0
+  },
+  "motion_blur": {
+    "enabled": false,
+    "shutter_fraction": 0.5,
+    "position": "CENTER",
+    "eevee_steps": 1,
+    "notes": "Configurable shutter blur (0.5 = 180-deg shutter) for speed-blur experiments."
+  },
+  "exposure": {
+    "exposure_ev": 0.0,
+    "view_transform": "AgX"
+  }
+}

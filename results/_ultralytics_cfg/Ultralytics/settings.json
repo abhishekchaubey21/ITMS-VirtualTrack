@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "D:\\ITMS-VirtualTrack\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "ec3daa5eb5d4962d1c54f0699329ead1d966d9b57ad7377fca5d8f1aacf2a4d8",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

@@ -1,0 +1,404 @@
+{
+  "audit_type": "METRIC_CONSISTENCY_REPORT",
+  "yolo_report_recalculation_diffs_at_conf025": [
+    {
+      "video_id": "eval_30kmh",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0036,
+        "mAP50_95_full001_minus_reported": 0.0011
+      }
+    },
+    {
+      "video_id": "eval_60kmh",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0131,
+        "mAP50_95_full001_minus_reported": 0.0061
+      }
+    },
+    {
+      "video_id": "eval_90kmh",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0,
+        "mAP50_95_full001_minus_reported": -0.0001
+      }
+    },
+    {
+      "video_id": "eval_120kmh",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0,
+        "mAP50_95_full001_minus_reported": 0.0
+      }
+    },
+    {
+      "video_id": "eval_150kmh",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0,
+        "mAP50_95_full001_minus_reported": 0.0
+      }
+    },
+    {
+      "video_id": "eval_180kmh",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0,
+        "mAP50_95_full001_minus_reported": -0.0001
+      }
+    },
+    {
+      "video_id": "eval_200kmh",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0,
+        "mAP50_95_full001_minus_reported": 0.0
+      }
+    },
+    {
+      "video_id": "var_17",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0,
+        "mAP50_95_full001_minus_reported": 0.0
+      }
+    },
+    {
+      "video_id": "var_18",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0172,
+        "mAP50_95_full001_minus_reported": 0.0133
+      }
+    },
+    {
+      "video_id": "var_19",
+      "diffs": {
+        "tp_diff": 0,
+        "fp_diff": 0,
+        "fn_diff": 0,
+        "mAP50_trunc_diff": 0.0,
+        "mAP50_95_trunc_diff": 0.0,
+        "mAP50_full001_minus_reported": 0.0201,
+        "mAP50_95_full001_minus_reported": 0.014
+      }
+    }
+  ],
+  "yolo_conf025_vs_conf001_mAP_delta": [
+    {
+      "video_id": "eval_30kmh",
+      "reported_mAP50": 0.9922,
+      "conf001_mAP50_allpoint": 0.9958,
+      "conf001_mAP50_coco101": 0.9937,
+      "reported_mAP50_95": 0.8032,
+      "conf001_mAP50_95_allpoint": 0.8043,
+      "conf001_mAP50_95_coco101": 0.8026
+    },
+    {
+      "video_id": "eval_60kmh",
+      "reported_mAP50": 0.9846,
+      "conf001_mAP50_allpoint": 0.9977,
+      "conf001_mAP50_coco101": 0.9975,
+      "reported_mAP50_95": 0.796,
+      "conf001_mAP50_95_allpoint": 0.8021,
+      "conf001_mAP50_95_coco101": 0.8019
+    },
+    {
+      "video_id": "eval_90kmh",
+      "reported_mAP50": 1.0,
+      "conf001_mAP50_allpoint": 1.0,
+      "conf001_mAP50_coco101": 1.0,
+      "reported_mAP50_95": 0.8051,
+      "conf001_mAP50_95_allpoint": 0.805,
+      "conf001_mAP50_95_coco101": 0.8051
+    },
+    {
+      "video_id": "eval_120kmh",
+      "reported_mAP50": 1.0,
+      "conf001_mAP50_allpoint": 1.0,
+      "conf001_mAP50_coco101": 1.0,
+      "reported_mAP50_95": 0.8221,
+      "conf001_mAP50_95_allpoint": 0.8221,
+      "conf001_mAP50_95_coco101": 0.823
+    },
+    {
+      "video_id": "eval_150kmh",
+      "reported_mAP50": 1.0,
+      "conf001_mAP50_allpoint": 1.0,
+      "conf001_mAP50_coco101": 1.0,
+      "reported_mAP50_95": 0.8059,
+      "conf001_mAP50_95_allpoint": 0.8059,
+      "conf001_mAP50_95_coco101": 0.8061
+    },
+    {
+      "video_id": "eval_180kmh",
+      "reported_mAP50": 1.0,
+      "conf001_mAP50_allpoint": 1.0,
+      "conf001_mAP50_coco101": 1.0,
+      "reported_mAP50_95": 0.8309,
+      "conf001_mAP50_95_allpoint": 0.8308,
+      "conf001_mAP50_95_coco101": 0.8306
+    },
+    {
+      "video_id": "eval_200kmh",
+      "reported_mAP50": 0.9514,
+      "conf001_mAP50_allpoint": 0.9514,
+      "conf001_mAP50_coco101": 0.9505,
+      "reported_mAP50_95": 0.7928,
+      "conf001_mAP50_95_allpoint": 0.7928,
+      "conf001_mAP50_95_coco101": 0.7928
+    },
+    {
+      "video_id": "var_17",
+      "reported_mAP50": 1.0,
+      "conf001_mAP50_allpoint": 1.0,
+      "conf001_mAP50_coco101": 1.0,
+      "reported_mAP50_95": 0.8128,
+      "conf001_mAP50_95_allpoint": 0.8128,
+      "conf001_mAP50_95_coco101": 0.8134
+    },
+    {
+      "video_id": "var_18",
+      "reported_mAP50": 0.9828,
+      "conf001_mAP50_allpoint": 1.0,
+      "conf001_mAP50_coco101": 1.0,
+      "reported_mAP50_95": 0.7752,
+      "conf001_mAP50_95_allpoint": 0.7885,
+      "conf001_mAP50_95_coco101": 0.7896
+    },
+    {
+      "video_id": "var_19",
+      "reported_mAP50": 0.9565,
+      "conf001_mAP50_allpoint": 0.9766,
+      "conf001_mAP50_coco101": 0.9728,
+      "reported_mAP50_95": 0.8407,
+      "conf001_mAP50_95_allpoint": 0.8547,
+      "conf001_mAP50_95_coco101": 0.8523
+    }
+  ],
+  "a3_val_threshold_calibration_audit": {
+    "training_summary_reported": {
+      "tp_pixels": 998,
+      "fp_pixels": 253,
+      "fn_pixels": 151,
+      "dice": 0.8317,
+      "iou": 0.7118,
+      "precision": 0.7978,
+      "recall": 0.8686
+    },
+    "training_summary_threshold": 0.85,
+    "all_558_val_frames_threshold_sweep": [
+      {
+        "threshold": 0.35,
+        "dice_all558": 0.0698,
+        "iou_all558": 0.0362,
+        "precision_all558": 0.0362,
+        "recall_all558": 0.9582,
+        "fp_on_negative_frames": 357,
+        "tp_px": 1101,
+        "fp_px": 29300,
+        "fn_px": 48
+      },
+      {
+        "threshold": 0.45,
+        "dice_all558": 0.6932,
+        "iou_all558": 0.5304,
+        "precision_all558": 0.5461,
+        "recall_all558": 0.9487,
+        "fp_on_negative_frames": 22,
+        "tp_px": 1090,
+        "fp_px": 906,
+        "fn_px": 59
+      },
+      {
+        "threshold": 0.5,
+        "dice_all558": 0.7556,
+        "iou_all558": 0.6072,
+        "precision_all558": 0.6297,
+        "recall_all558": 0.9443,
+        "fp_on_negative_frames": 7,
+        "tp_px": 1085,
+        "fp_px": 638,
+        "fn_px": 64
+      },
+      {
+        "threshold": 0.55,
+        "dice_all558": 0.7747,
+        "iou_all558": 0.6322,
+        "precision_all558": 0.6605,
+        "recall_all558": 0.9365,
+        "fp_on_negative_frames": 6,
+        "tp_px": 1076,
+        "fp_px": 553,
+        "fn_px": 73
+      },
+      {
+        "threshold": 0.65,
+        "dice_all558": 0.7944,
+        "iou_all558": 0.659,
+        "precision_all558": 0.6991,
+        "recall_all558": 0.9199,
+        "fp_on_negative_frames": 5,
+        "tp_px": 1057,
+        "fp_px": 455,
+        "fn_px": 92
+      },
+      {
+        "threshold": 0.75,
+        "dice_all558": 0.815,
+        "iou_all558": 0.6877,
+        "precision_all558": 0.7441,
+        "recall_all558": 0.9008,
+        "fp_on_negative_frames": 2,
+        "tp_px": 1035,
+        "fp_px": 356,
+        "fn_px": 114
+      },
+      {
+        "threshold": 0.85,
+        "dice_all558": 0.8238,
+        "iou_all558": 0.7004,
+        "precision_all558": 0.7834,
+        "recall_all558": 0.8686,
+        "fp_on_negative_frames": 1,
+        "tp_px": 998,
+        "fp_px": 276,
+        "fn_px": 151
+      },
+      {
+        "threshold": 0.9,
+        "dice_all558": 0.8157,
+        "iou_all558": 0.6887,
+        "precision_all558": 0.7983,
+        "recall_all558": 0.8338,
+        "fp_on_negative_frames": 1,
+        "tp_px": 958,
+        "fp_px": 242,
+        "fn_px": 191
+      },
+      {
+        "threshold": 0.92,
+        "dice_all558": 0.813,
+        "iou_all558": 0.6849,
+        "precision_all558": 0.8088,
+        "recall_all558": 0.8172,
+        "fp_on_negative_frames": 1,
+        "tp_px": 939,
+        "fp_px": 222,
+        "fn_px": 210
+      },
+      {
+        "threshold": 0.95,
+        "dice_all558": 0.7951,
+        "iou_all558": 0.6599,
+        "precision_all558": 0.8297,
+        "recall_all558": 0.7633,
+        "fp_on_negative_frames": 1,
+        "tp_px": 877,
+        "fp_px": 180,
+        "fn_px": 272
+      }
+    ]
+  },
+  "a4_val_current_code_vs_prior_session_claim": {
+    "prior_claim": "3.7-6.4 mm MAE, 0.5-1.0 mm peak error on val (from CalibratedRailAnalyzer pre-edit trace)",
+    "current_code_exact_val": [
+      {
+        "video_id": "var_14",
+        "frame_tp": 17,
+        "frame_fp": 4,
+        "frame_fn": 7,
+        "frame_tn": 123,
+        "gt_max_deviation_m": 0.10506,
+        "estimated_max_deviation_m": 0.10402,
+        "peak_amplitude_diff_m": 0.00104,
+        "displacement_mae_m": 0.00371,
+        "displacement_rmse_m": 0.0066,
+        "max_pointwise_error_m": 0.02251,
+        "estimated_affected_region_m": [
+          196.75,
+          202.75
+        ]
+      },
+      {
+        "video_id": "var_15",
+        "frame_tp": 26,
+        "frame_fp": 1,
+        "frame_fn": 10,
+        "frame_tn": 189,
+        "gt_max_deviation_m": 0.09087,
+        "estimated_max_deviation_m": 0.09013,
+        "peak_amplitude_diff_m": 0.00074,
+        "displacement_mae_m": 0.00482,
+        "displacement_rmse_m": 0.00696,
+        "max_pointwise_error_m": 0.01885,
+        "estimated_affected_region_m": [
+          197.25,
+          202.75
+        ]
+      },
+      {
+        "video_id": "var_16",
+        "frame_tp": 20,
+        "frame_fp": 9,
+        "frame_fn": 9,
+        "frame_tn": 143,
+        "gt_max_deviation_m": 0.08772,
+        "estimated_max_deviation_m": 0.08818,
+        "peak_amplitude_diff_m": 0.00046,
+        "displacement_mae_m": 0.00643,
+        "displacement_rmse_m": 0.01177,
+        "max_pointwise_error_m": 0.0406,
+        "estimated_affected_region_m": [
+          197.0,
+          202.75
+        ]
+      }
+    ]
+  },
+  "a4_unit_and_definition_clarification": {
+    "peak_amplitude_difference_mm": "|max_y |est(y)| - max_y |gt(y)|| -> peak height match (0.59-2.49 mm controlled; 0.30-0.96 mm current val)",
+    "displacement_mae_cm": "mean_y |est(y) - gt(y)| over 33 stations in [196, 204] m (0.42-0.67 cm = 4.19-6.66 mm controlled)",
+    "displacement_rmse_cm": "sqrt(mean_y (est(y) - gt(y))^2) over 33 stations (0.69-1.24 cm = 6.92-12.37 mm controlled)",
+    "max_pointwise_error_cm": "max_y |est(y) - gt(y)| across [196, 204] m (2.24-3.89 cm = 22.43-38.92 mm controlled)"
+  },
+  "eval_vs_pred_json_exact_match": true
+}

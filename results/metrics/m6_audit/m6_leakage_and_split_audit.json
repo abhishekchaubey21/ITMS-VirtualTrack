@@ -1,0 +1,147 @@
+{
+  "audit_type": "INDEPENDENT_LEAKAGE_AND_SPLIT_AUDIT",
+  "total_images_hashed_sha256": 6102,
+  "cross_split_exact_image_duplicates_count": 0,
+  "cross_split_exact_image_duplicates": [],
+  "within_split_exact_image_duplicates_count": 0,
+  "prefix_counts_per_split": {
+    "train": {
+      "var_00": 226,
+      "var_01": 181,
+      "var_02": 151,
+      "var_03": 226,
+      "var_04": 181,
+      "var_05": 151,
+      "var_06": 226,
+      "var_07": 181,
+      "var_08": 151,
+      "var_09": 226,
+      "var_10": 181,
+      "var_11": 151,
+      "var_12": 226,
+      "var_13": 181
+    },
+    "val": {
+      "var_14": 151,
+      "var_15": 226,
+      "var_16": 181
+    },
+    "test": {
+      "eval_120kmh": 226,
+      "eval_150kmh": 181,
+      "eval_180kmh": 151,
+      "eval_200kmh": 136,
+      "eval_30kmh": 901,
+      "eval_60kmh": 451,
+      "eval_90kmh": 301,
+      "var_17": 151,
+      "var_18": 226,
+      "var_19": 181
+    }
+  },
+  "recalculated_counts_per_split": {
+    "train": {
+      "images": 2639,
+      "labels": 2639,
+      "class_0_animal_carcass": 468,
+      "class_1_grain_spillage": 324,
+      "total_boxes": 792,
+      "positive_frames": 792,
+      "negative_frames": 1847
+    },
+    "val": {
+      "images": 558,
+      "labels": 558,
+      "class_0_animal_carcass": 97,
+      "class_1_grain_spillage": 65,
+      "total_boxes": 162,
+      "positive_frames": 162,
+      "negative_frames": 396
+    },
+    "test": {
+      "images": 2905,
+      "labels": 2905,
+      "class_0_animal_carcass": 542,
+      "class_1_grain_spillage": 351,
+      "total_boxes": 893,
+      "positive_frames": 893,
+      "negative_frames": 2012
+    }
+  },
+  "a3_mask_counts_on_disk": {
+    "train": 64,
+    "val": 15,
+    "test": 74
+  },
+  "a4_mask_counts_on_disk": {
+    "train": 421,
+    "val": 89,
+    "test": 465
+  },
+  "manifest_videos_by_split": {
+    "test": [
+      "eval_30kmh",
+      "eval_60kmh",
+      "eval_90kmh",
+      "eval_120kmh",
+      "eval_150kmh",
+      "eval_180kmh",
+      "eval_200kmh",
+      "var_17",
+      "var_18",
+      "var_19"
+    ],
+    "train": [
+      "var_00",
+      "var_01",
+      "var_02",
+      "var_03",
+      "var_04",
+      "var_05",
+      "var_06",
+      "var_07",
+      "var_08",
+      "var_09",
+      "var_10",
+      "var_11",
+      "var_12",
+      "var_13"
+    ],
+    "val": [
+      "var_14",
+      "var_15",
+      "var_16"
+    ]
+  },
+  "manifest_eval_in_train_or_val": [],
+  "gt_manifest_mismatches": [],
+  "m6_dataset_audit_matches_disk": true,
+  "data_yaml_verified": {
+    "path": "D:/ITMS-VirtualTrack/dataset/synthetic",
+    "train": "images/train",
+    "val": "images/val",
+    "test": "images/test",
+    "nc": 2,
+    "names": {
+      "0": "animal_carcass",
+      "1": "grain_spillage"
+    }
+  },
+  "yolo_args_data": "D:\\ITMS-VirtualTrack\\dataset\\synthetic\\configs\\data.yaml",
+  "yolo_args_split_for_val": "val",
+  "crack_unet_splits_audited": {
+    "train_positives": 64,
+    "train_negatives": 64,
+    "val_positives": 15,
+    "val_negatives": 15,
+    "val_calibrated_threshold": 0.85,
+    "calibration_caveat": "Threshold 0.85 was calibrated on val only (no test leakage), but only 15 negative val frames were sampled (neg_ratio=1.0 out of 543 neg val frames) and 0.85 was the upper endpoint of the candidate grid."
+  },
+  "geometry_calibration_audit": {
+    "analyzer_uses_only_camera_and_track_cfg_and_frame_odometry": true,
+    "odometry_assumption_note": "predict.py passes ground-truth frame camera_position_m (exact constant-velocity telemetry) for mapping scanlines onto the global 250 m track coordinate axis.",
+    "post_eval_spatial_prior_note": "reconstruct_and_evaluate_track_profile (geometry_analyzer.py:366) filters estimated_affected_region_m using 188.0 <= y_m <= 212.0 and evaluates MAE/RMSE strictly over gt_by_y [196.0, 204.0] m."
+  },
+  "controlled_eval_vs_variant_test_separated": true,
+  "controlled_eval_excluded_from_train_val": true
+}

@@ -1,0 +1,79 @@
+{
+  "project": {
+    "name": "ITMS-VirtualTrack",
+    "data_label": "SYNTHETIC",
+    "description": "Synthetic railway anomaly detection and speed-based CV evaluation platform",
+    "random_seed": 42
+  },
+  "coordinate_system": {
+    "longitudinal_axis": "+Y",
+    "lateral_axis": "+X",
+    "vertical_axis": "+Z",
+    "datum_description": "Z=0.0m is the sub-ballast/ground plane. Track runs straight along +Y from Y=0.0m to Y=250.0m, centered at X=0.0m."
+  },
+  "track": {
+    "gauge_standard": "Indian Broad Gauge (1676 mm)",
+    "length_m": 250.0,
+    "gauge_m": 1.676,
+    "gauge_reference": "inner_rail_head_face",
+    "rail": {
+      "profile": "60E1 / UIC60-like",
+      "height_m": 0.172,
+      "head_width_m": 0.072,
+      "head_height_m": 0.044,
+      "foot_width_m": 0.150,
+      "foot_height_m": 0.022,
+      "web_thickness_m": 0.0165
+    },
+    "sleeper": {
+      "type": "PSC Broad Gauge Sleeper",
+      "spacing_m": 0.60,
+      "start_offset_m": 0.20,
+      "length_m": 2.75,
+      "width_m": 0.26,
+      "height_m": 0.18,
+      "embed_depth_m": 0.05
+    },
+    "ballast": {
+      "height_m": 0.30,
+      "top_width_m": 3.50,
+      "bottom_width_m": 4.70,
+      "subdivision_y_m": 1.0,
+      "noise_amplitude_m": 0.012
+    },
+    "surroundings": {
+      "ground_width_m": 400.0,
+      "ground_pre_buffer_m": 40.0,
+      "ground_post_buffer_m": 300.0,
+      "embankment_width_m": 9.0,
+      "include_reference_poles": true,
+      "pole_interval_m": 25.0,
+      "pole_lateral_offset_m": 3.6,
+      "include_trackside_markers": true,
+      "include_scrub_bushes": true,
+      "scrub_count": 60
+    }
+  },
+  "simulation": {
+    "speeds_kmh": [30, 60, 90, 120, 150, 180, 200],
+    "start_position_m": 0.0,
+    "end_position_m": 250.0,
+    "video_naming_pattern": "railway_{speed_kmh}kmh.mp4",
+    "baseline_run": {
+      "enabled": true,
+      "speed_kmh": 60,
+      "video_name": "railway_baseline_clean.mp4",
+      "include_anomalies": false
+    }
+  },
+  "paths": {
+    "blender_executable": "D:\\blender.exe",
+    "blender_search_candidates": [
+      "D:\\blender.exe",
+      "C:\\Program Files\\Blender Foundation\\Blender 5.3\\blender.exe"
+    ],
+    "dataset_dir": "dataset/synthetic",
+    "results_dir": "results",
+    "temp_dir": "results/_tmp"
+  }
+}

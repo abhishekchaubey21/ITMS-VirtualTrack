@@ -1,0 +1,58 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Blender backup and temporary files
+*.blend1
+*.blend2
+*.blend@
+/tmp/
+
+# Generated synthetic media and heavy dataset binaries (keep directory markers and metadata schemas)
+dataset/synthetic/videos/*.mp4
+dataset/synthetic/videos/*.mkv
+dataset/synthetic/videos/*.avi
+dataset/synthetic/images/**/*.png
+dataset/synthetic/images/**/*.jpg
+dataset/synthetic/labels/**/*.txt
+dataset/synthetic/ground_truth/*.json
+dataset/synthetic/metadata/*.json
+
+# Model weights and training runs
+*.pt
+*.onnx
+*.engine
+runs/
+weights/
+
+# Rendered outputs and large generated results
+results/_tmp/
+results/scenes/*.blend
+results/videos/*.mp4
+results/videos/**/*.png
+results/videos/*.png
+results/graphs/*.png
+results/graphs/*.html
+results/metrics/*.json
+results/metrics/*.csv
+results/reports/*.json
+results/reports/*.csv
+results/reports/*.md
+
+# Logs and OS artifacts
+*.log
+logs/
+.DS_Store
+Thumbs.db
+desktop.ini
+

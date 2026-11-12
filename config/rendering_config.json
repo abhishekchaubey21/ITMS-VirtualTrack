@@ -1,0 +1,53 @@
+{
+  "data_label": "SYNTHETIC",
+  "blender_version_tested": "5.3.0",
+  "engine": "BLENDER_EEVEE",
+  "fallback_engine": "CYCLES",
+  "mode": "preview",
+  "eevee": {
+    "preview_samples": 8,
+    "production_samples": 16,
+    "use_raytracing": false,
+    "use_shadows": true,
+    "shadow_resolution_scale": 1.0
+  },
+  "cycles": {
+    "samples": 32,
+    "device": "GPU",
+    "compute_device_type": "CUDA",
+    "use_denoising": true
+  },
+  "output": {
+    "media_type": "VIDEO",
+    "file_format": "FFMPEG",
+    "ffmpeg_format": "MPEG4",
+    "video_codec": "H264",
+    "constant_rate_factor": "MEDIUM",
+    "ffmpeg_preset": "GOOD",
+    "save_blend_file": true,
+    "blend_filename": "results/scenes/railway_250m_base.blend",
+    "preview_video_filename": "results/videos/m2_railway_preview.mp4",
+    "preview_keyframe_dir": "results/videos/m2_preview_frames"
+  },
+  "preview_simulation": {
+    "speed_kmh": 60.0,
+    "duration_s": 2.0,
+    "start_position_m": 0.0,
+    "render_keyframes": true,
+    "keyframe_positions_m": [0.0, 25.0, 100.0]
+  },
+  "lighting": {
+    "preset": "clear_daylight",
+    "sun_elevation_deg": 32.0,
+    "sun_azimuth_deg": 125.0,
+    "sun_energy": 4.5,
+    "sky_type": "MULTIPLE_SCATTERING",
+    "sky_strength": 0.12
+  },
+  "color_management": {
+    "display_device": "sRGB",
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0
+  }
+}

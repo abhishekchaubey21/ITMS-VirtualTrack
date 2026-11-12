@@ -1,0 +1,388 @@
+{
+  "dataset_type": "SYNTHETIC",
+  "video_id": "var_03",
+  "source_scene": "var_03",
+  "anomalies": {
+    "A1": {
+      "id": "A1",
+      "class": "animal_carcass",
+      "class_id": 0,
+      "detection_method": "object_detection",
+      "yolo_enabled": true,
+      "non_graphic": true,
+      "configured_position_m": 50.0,
+      "lateral_offset_m": 0.07819999999999999,
+      "yaw_deg": -5.719999999999999,
+      "configured_dimensions_m": {
+        "length": 1.15,
+        "width": 0.45,
+        "height": 0.42
+      },
+      "object_name": "A1_Animal_Carcass",
+      "collection_name": "A1_Animal_Carcass",
+      "world_min_m": [
+        -0.5159,
+        49.7764,
+        0.415
+      ],
+      "world_max_m": [
+        0.6662,
+        50.2543,
+        0.8447
+      ],
+      "world_center_m": [
+        0.0751,
+        50.0153,
+        0.6299
+      ],
+      "world_dimensions_m": [
+        1.1821,
+        0.4779,
+        0.4297
+      ]
+    },
+    "A2": {
+      "id": "A2",
+      "class": "grain_spillage",
+      "class_id": 1,
+      "detection_method": "object_detection",
+      "yolo_enabled": true,
+      "configured_position_m": 100.0,
+      "lateral_offset_m": -0.014920000000000003,
+      "yaw_deg": 40.09,
+      "particle_count": 450,
+      "configured_dimensions_m": {
+        "length": 1.8,
+        "width": 1.1,
+        "height": 0.14
+      },
+      "object_name": "A2_Grain_Spillage",
+      "collection_name": "A2_Grain_Spillage",
+      "world_min_m": [
+        -1.1573,
+        98.8092,
+        0.304
+      ],
+      "world_max_m": [
+        1.1275,
+        101.1908,
+        0.6141
+      ],
+      "world_center_m": [
+        -0.0149,
+        100.0,
+        0.459
+      ],
+      "world_dimensions_m": [
+        2.2848,
+        2.3816,
+        0.3101
+      ]
+    },
+    "A3": {
+      "id": "A3",
+      "class": "rail_crack",
+      "class_id": 2,
+      "detection_method": "segmentation",
+      "yolo_enabled": false,
+      "engineering_disclaimer": "Controlled synthetic visual rail-head crack defect for CV segmentation; not a structural metallurgical fracture model.",
+      "configured_position_m": 150.0,
+      "target_rail": "right",
+      "target_rail_center_x_m": 0.874,
+      "crack_length_m": 0.5733,
+      "crack_width_m": 0.0212,
+      "crack_depth_m": 0.014,
+      "object_name": "A3_Rail_Crack",
+      "collection_name": "A3_Rail_Crack",
+      "world_min_m": [
+        0.8471,
+        149.7133,
+        0.5886
+      ],
+      "world_max_m": [
+        0.902,
+        150.2867,
+        0.6026
+      ],
+      "world_center_m": [
+        0.8745,
+        150.0,
+        0.5956
+      ],
+      "world_dimensions_m": [
+        0.0549,
+        0.5734,
+        0.014
+      ]
+    },
+    "A4": {
+      "id": "A4",
+      "class": "rail_misalignment",
+      "class_id": 3,
+      "detection_method": "geometric_analysis",
+      "yolo_enabled": false,
+      "configured_position_m": 200.0,
+      "affected_span_m": 8.0,
+      "start_m": 196.0,
+      "end_m": 204.0,
+      "max_lateral_deviation_m": 0.07599,
+      "affected_rails": "both",
+      "continuity": "C1 smooth raised-cosine sin^2(pi * u) profile (zero displacement/slope discontinuity at boundaries)",
+      "displacement_profile": [
+        {
+          "y_m": 196.0,
+          "lateral_shift_m": 0.0,
+          "left_rail_center_x_m": -0.874,
+          "right_rail_center_x_m": 0.874,
+          "tangent_angle_deg": 0.0
+        },
+        {
+          "y_m": 196.25,
+          "lateral_shift_m": 0.00073,
+          "left_rail_center_x_m": -0.87327,
+          "right_rail_center_x_m": 0.87473,
+          "tangent_angle_deg": 0.3336
+        },
+        {
+          "y_m": 196.5,
+          "lateral_shift_m": 0.002892,
+          "left_rail_center_x_m": -0.871108,
+          "right_rail_center_x_m": 0.876892,
+          "tangent_angle_deg": 0.6543
+        },
+        {
+          "y_m": 196.75,
+          "lateral_shift_m": 0.006403,
+          "left_rail_center_x_m": -0.867597,
+          "right_rail_center_x_m": 0.880403,
+          "tangent_angle_deg": 0.9498
+        },
+        {
+          "y_m": 197.0,
+          "lateral_shift_m": 0.011128,
+          "left_rail_center_x_m": -0.862872,
+          "right_rail_center_x_m": 0.885128,
+          "tangent_angle_deg": 1.2088
+        },
+        {
+          "y_m": 197.25,
+          "lateral_shift_m": 0.016886,
+          "left_rail_center_x_m": -0.857114,
+          "right_rail_center_x_m": 0.890886,
+          "tangent_angle_deg": 1.4213
+        },
+        {
+          "y_m": 197.5,
+          "lateral_shift_m": 0.023455,
+          "left_rail_center_x_m": -0.850545,
+          "right_rail_center_x_m": 0.897455,
+          "tangent_angle_deg": 1.5792
+        },
+        {
+          "y_m": 197.75,
+          "lateral_shift_m": 0.030583,
+          "left_rail_center_x_m": -0.843417,
+          "right_rail_center_x_m": 0.904583,
+          "tangent_angle_deg": 1.6764
+        },
+        {
+          "y_m": 198.0,
+          "lateral_shift_m": 0.037995,
+          "left_rail_center_x_m": -0.836005,
+          "right_rail_center_x_m": 0.911995,
+          "tangent_angle_deg": 1.7093
+        },
+        {
+          "y_m": 198.25,
+          "lateral_shift_m": 0.045407,
+          "left_rail_center_x_m": -0.828593,
+          "right_rail_center_x_m": 0.919407,
+          "tangent_angle_deg": 1.6764
+        },
+        {
+          "y_m": 198.5,
+          "lateral_shift_m": 0.052535,
+          "left_rail_center_x_m": -0.821465,
+          "right_rail_center_x_m": 0.926535,
+          "tangent_angle_deg": 1.5792
+        },
+        {
+          "y_m": 198.75,
+          "lateral_shift_m": 0.059104,
+          "left_rail_center_x_m": -0.814896,
+          "right_rail_center_x_m": 0.933104,
+          "tangent_angle_deg": 1.4213
+        },
+        {
+          "y_m": 199.0,
+          "lateral_shift_m": 0.064862,
+          "left_rail_center_x_m": -0.809138,
+          "right_rail_center_x_m": 0.938862,
+          "tangent_angle_deg": 1.2088
+        },
+        {
+          "y_m": 199.25,
+          "lateral_shift_m": 0.069587,
+          "left_rail_center_x_m": -0.804413,
+          "right_rail_center_x_m": 0.943587,
+          "tangent_angle_deg": 0.9498
+        },
+        {
+          "y_m": 199.5,
+          "lateral_shift_m": 0.073098,
+          "left_rail_center_x_m": -0.800902,
+          "right_rail_center_x_m": 0.947098,
+          "tangent_angle_deg": 0.6543
+        },
+        {
+          "y_m": 199.75,
+          "lateral_shift_m": 0.07526,
+          "left_rail_center_x_m": -0.79874,
+          "right_rail_center_x_m": 0.94926,
+          "tangent_angle_deg": 0.3336
+        },
+        {
+          "y_m": 200.0,
+          "lateral_shift_m": 0.07599,
+          "left_rail_center_x_m": -0.79801,
+          "right_rail_center_x_m": 0.94999,
+          "tangent_angle_deg": 0.0
+        },
+        {
+          "y_m": 200.25,
+          "lateral_shift_m": 0.07526,
+          "left_rail_center_x_m": -0.79874,
+          "right_rail_center_x_m": 0.94926,
+          "tangent_angle_deg": -0.3336
+        },
+        {
+          "y_m": 200.5,
+          "lateral_shift_m": 0.073098,
+          "left_rail_center_x_m": -0.800902,
+          "right_rail_center_x_m": 0.947098,
+          "tangent_angle_deg": -0.6543
+        },
+        {
+          "y_m": 200.75,
+          "lateral_shift_m": 0.069587,
+          "left_rail_center_x_m": -0.804413,
+          "right_rail_center_x_m": 0.943587,
+          "tangent_angle_deg": -0.9498
+        },
+        {
+          "y_m": 201.0,
+          "lateral_shift_m": 0.064862,
+          "left_rail_center_x_m": -0.809138,
+          "right_rail_center_x_m": 0.938862,
+          "tangent_angle_deg": -1.2088
+        },
+        {
+          "y_m": 201.25,
+          "lateral_shift_m": 0.059104,
+          "left_rail_center_x_m": -0.814896,
+          "right_rail_center_x_m": 0.933104,
+          "tangent_angle_deg": -1.4213
+        },
+        {
+          "y_m": 201.5,
+          "lateral_shift_m": 0.052535,
+          "left_rail_center_x_m": -0.821465,
+          "right_rail_center_x_m": 0.926535,
+          "tangent_angle_deg": -1.5792
+        },
+        {
+          "y_m": 201.75,
+          "lateral_shift_m": 0.045407,
+          "left_rail_center_x_m": -0.828593,
+          "right_rail_center_x_m": 0.919407,
+          "tangent_angle_deg": -1.6764
+        },
+        {
+          "y_m": 202.0,
+          "lateral_shift_m": 0.037995,
+          "left_rail_center_x_m": -0.836005,
+          "right_rail_center_x_m": 0.911995,
+          "tangent_angle_deg": -1.7093
+        },
+        {
+          "y_m": 202.25,
+          "lateral_shift_m": 0.030583,
+          "left_rail_center_x_m": -0.843417,
+          "right_rail_center_x_m": 0.904583,
+          "tangent_angle_deg": -1.6764
+        },
+        {
+          "y_m": 202.5,
+          "lateral_shift_m": 0.023455,
+          "left_rail_center_x_m": -0.850545,
+          "right_rail_center_x_m": 0.897455,
+          "tangent_angle_deg": -1.5792
+        },
+        {
+          "y_m": 202.75,
+          "lateral_shift_m": 0.016886,
+          "left_rail_center_x_m": -0.857114,
+          "right_rail_center_x_m": 0.890886,
+          "tangent_angle_deg": -1.4213
+        },
+        {
+          "y_m": 203.0,
+          "lateral_shift_m": 0.011128,
+          "left_rail_center_x_m": -0.862872,
+          "right_rail_center_x_m": 0.885128,
+          "tangent_angle_deg": -1.2088
+        },
+        {
+          "y_m": 203.25,
+          "lateral_shift_m": 0.006403,
+          "left_rail_center_x_m": -0.867597,
+          "right_rail_center_x_m": 0.880403,
+          "tangent_angle_deg": -0.9498
+        },
+        {
+          "y_m": 203.5,
+          "lateral_shift_m": 0.002892,
+          "left_rail_center_x_m": -0.871108,
+          "right_rail_center_x_m": 0.876892,
+          "tangent_angle_deg": -0.6543
+        },
+        {
+          "y_m": 203.75,
+          "lateral_shift_m": 0.00073,
+          "left_rail_center_x_m": -0.87327,
+          "right_rail_center_x_m": 0.87473,
+          "tangent_angle_deg": -0.3336
+        },
+        {
+          "y_m": 204.0,
+          "lateral_shift_m": 0.0,
+          "left_rail_center_x_m": -0.874,
+          "right_rail_center_x_m": 0.874,
+          "tangent_angle_deg": 0.0
+        }
+      ],
+      "object_name": "A4_Rail_Misalignment_Mask",
+      "collection_name": "A4_Rail_Misalignment",
+      "world_min_m": [
+        -0.9125,
+        196.0,
+        0.558
+      ],
+      "world_max_m": [
+        0.9885,
+        204.0,
+        0.6045
+      ],
+      "world_center_m": [
+        0.038,
+        200.0,
+        0.5813
+      ],
+      "world_dimensions_m": [
+        1.901,
+        8.0,
+        0.0465
+      ]
+    }
+  }
+}
